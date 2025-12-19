@@ -38,11 +38,6 @@
 	"migrations": [
 		{
 			"tag": "v1",
-			"new_classes": ["VKMcpAgent"]
-		},
-		{
-			"tag": "v2",
-			"deleted_classes": ["VKMcpAgent"],
 			"new_sqlite_classes": ["VKMcpAgentV2"]
 		}
 	]
