@@ -110,7 +110,15 @@ function getTools(site: SiteConfig) {
 				properties: {
 					search: {
 						type: 'string',
-						description: 'Search query for articles'
+						description: 'Search query for articles. Use * to match all articles (useful with date filters).'
+					},
+					minDate: {
+						type: 'string',
+						description: 'Start date filter (YYYY-MM-DD). Only return articles published on or after this date.'
+					},
+					maxDate: {
+						type: 'string',
+						description: 'End date filter (YYYY-MM-DD). Only return articles published on or before this date.'
 					},
 					limit: {
 						type: 'number',
@@ -169,15 +177,17 @@ function getTools(site: SiteConfig) {
 
 // Handle search_articles tool call
 async function handleSearchArticles(
-	args: { search: string; limit?: number; page?: number },
+	args: { search: string; minDate?: string; maxDate?: string; limit?: number; page?: number },
 	authToken: string,
 	site: SiteConfig
 ): Promise<{ content: Array<{ type: string; text: string }>; isError?: boolean }> {
 	try {
-		const { search, limit = 15, page = 0 } = args;
+		const { search, minDate, maxDate, limit = 15, page = 0 } = args;
 
 		const apiUrl = new URL(getSearchApiUrl(site));
 		apiUrl.searchParams.set('search', search);
+		if (minDate) apiUrl.searchParams.set('minDate', minDate);
+		if (maxDate) apiUrl.searchParams.set('maxDate', maxDate);
 		apiUrl.searchParams.set('limit', String(Math.min(Math.max(limit, 1), 50)));
 		apiUrl.searchParams.set('page', String(Math.max(page, 0)));
 
