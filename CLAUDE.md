@@ -94,3 +94,5 @@ Returns sanitized article data: site name, headline, preamble, section, authors,
 - Authorization Server Metadata (RFC 8414)
 - Dynamic Client Registration (RFC 7591)
 - Streamable HTTP transport
+
+NEVER DEPLOY

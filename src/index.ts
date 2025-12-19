@@ -263,47 +263,63 @@ const authHandler = {
 
 		// Authorization endpoint
 		if (url.pathname === '/authorize') {
-			// Parse OAuth request using the provider
-			const oauthReqInfo = await oauthEnv.OAUTH_PROVIDER.parseAuthRequest(request);
+			try {
+				// Parse OAuth request using the provider
+				const oauthReqInfo = await oauthEnv.OAUTH_PROVIDER.parseAuthRequest(request);
 
-			// Validate PKCE is present (required by MCP spec)
-			if (!oauthReqInfo.codeChallenge || oauthReqInfo.codeChallengeMethod !== 'S256') {
-				const redirectUri = new URL(oauthReqInfo.redirectUri);
-				redirectUri.searchParams.set('error', 'invalid_request');
-				redirectUri.searchParams.set('error_description', 'PKCE with S256 is required');
-				if (oauthReqInfo.state) {
-					redirectUri.searchParams.set('state', oauthReqInfo.state);
+				// Validate PKCE is present (required by MCP spec)
+				if (!oauthReqInfo.codeChallenge || oauthReqInfo.codeChallengeMethod !== 'S256') {
+					const redirectUri = new URL(oauthReqInfo.redirectUri);
+					redirectUri.searchParams.set('error', 'invalid_request');
+					redirectUri.searchParams.set('error_description', 'PKCE with S256 is required');
+					if (oauthReqInfo.state) {
+						redirectUri.searchParams.set('state', oauthReqInfo.state);
+					}
+					return Response.redirect(redirectUri.toString(), 302);
 				}
-				return Response.redirect(redirectUri.toString(), 302);
+
+				// Read the auth_token cookie
+				const cookies = request.headers.get('Cookie') || '';
+				const authToken = parseCookie(cookies, 'auth_token');
+
+				// If no cookie, redirect to VK Media login
+				if (!authToken) {
+					const loginRedirect = new URL(VK_LOGIN_URL);
+					loginRedirect.searchParams.set('redirect', request.url);
+					return Response.redirect(loginRedirect.toString(), 302);
+				}
+
+				// Complete the authorization - store the auth token and site in props
+				// The OAuthProvider will encrypt these props into the access token
+				const { redirectTo } = await oauthEnv.OAUTH_PROVIDER.completeAuthorization({
+					request: oauthReqInfo,
+					userId: 'vkmedia-user', // We don't have user ID, just the token
+					metadata: { service: site.name, domain: site.domain },
+					scope: ['articles:search'],
+					props: {
+						authToken: authToken,
+						clientId: oauthReqInfo.clientId,
+						resource: serverUrl,
+						siteDomain: site.domain,
+					} satisfies ExtendedAuthContext,
+				});
+
+				return Response.redirect(redirectTo, 302);
+			} catch (error) {
+				// Return OAuth error response
+				const redirectUri = url.searchParams.get('redirect_uri');
+				const state = url.searchParams.get('state');
+				if (redirectUri) {
+					const errorUrl = new URL(redirectUri);
+					errorUrl.searchParams.set('error', 'invalid_request');
+					errorUrl.searchParams.set('error_description', error instanceof Error ? error.message : 'Authorization failed');
+					if (state) {
+						errorUrl.searchParams.set('state', state);
+					}
+					return Response.redirect(errorUrl.toString(), 302);
+				}
+				return Response.json({ error: 'invalid_request', error_description: 'Authorization failed' }, { status: 400 });
 			}
-
-			// Read the auth_token cookie
-			const cookies = request.headers.get('Cookie') || '';
-			const authToken = parseCookie(cookies, 'auth_token');
-
-			// If no cookie, redirect to VK Media login
-			if (!authToken) {
-				const loginRedirect = new URL(VK_LOGIN_URL);
-				loginRedirect.searchParams.set('redirect', request.url);
-				return Response.redirect(loginRedirect.toString(), 302);
-			}
-
-			// Complete the authorization - store the auth token and site in props
-			// The OAuthProvider will encrypt these props into the access token
-			const { redirectTo } = await oauthEnv.OAUTH_PROVIDER.completeAuthorization({
-				request: oauthReqInfo,
-				userId: 'vkmedia-user', // We don't have user ID, just the token
-				metadata: { service: site.name, domain: site.domain },
-				scope: ['articles:search'],
-				props: {
-					authToken: authToken,
-					clientId: oauthReqInfo.clientId,
-					resource: serverUrl,
-					siteDomain: site.domain,
-				} satisfies ExtendedAuthContext,
-			});
-
-			return Response.redirect(redirectTo, 302);
 		}
 
 		// Default: return 404
@@ -312,7 +328,8 @@ const authHandler = {
 };
 
 // Create the MCP handler using McpAgent.serve()
-const mcpHandler = VKMcpAgent.serve('/mcp', {
+// Note: Claude expects MCP at root path '/', not '/mcp'
+const mcpHandler = VKMcpAgent.serve('/', {
 	binding: 'MCP_OBJECT',
 });
 
@@ -320,7 +337,7 @@ const mcpHandler = VKMcpAgent.serve('/mcp', {
  * Main OAuth Provider export
  */
 export default new OAuthProvider({
-	apiRoute: '/mcp',
+	apiRoute: '/',
 	apiHandler: mcpHandler,
 	defaultHandler: authHandler,
 	authorizeEndpoint: '/authorize',
