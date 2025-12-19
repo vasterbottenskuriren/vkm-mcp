@@ -120,6 +120,11 @@ function getTools(site: SiteConfig) {
 						type: 'string',
 						description: 'End date filter (YYYY-MM-DD). Only return articles published on or before this date.'
 					},
+					local_only: {
+						type: 'boolean',
+						description: 'If true, exclude TT (news agency) articles and only return local journalism.',
+						default: false
+					},
 					limit: {
 						type: 'number',
 						description: 'Number of results to return (1-50)',
@@ -177,18 +182,21 @@ function getTools(site: SiteConfig) {
 
 // Handle search_articles tool call
 async function handleSearchArticles(
-	args: { search: string; minDate?: string; maxDate?: string; limit?: number; page?: number },
+	args: { search: string; minDate?: string; maxDate?: string; local_only?: boolean; limit?: number; page?: number },
 	authToken: string,
 	site: SiteConfig
 ): Promise<{ content: Array<{ type: string; text: string }>; isError?: boolean }> {
 	try {
-		const { search, minDate, maxDate, limit = 15, page = 0 } = args;
+		const { search, minDate, maxDate, local_only = false, limit = 15, page = 0 } = args;
+
+		// If filtering locally, fetch more to compensate for filtered results
+		const fetchLimit = local_only ? 30 : Math.min(Math.max(limit, 1), 50);
 
 		const apiUrl = new URL(getSearchApiUrl(site));
 		apiUrl.searchParams.set('search', search);
 		if (minDate) apiUrl.searchParams.set('minDate', minDate);
 		if (maxDate) apiUrl.searchParams.set('maxDate', maxDate);
-		apiUrl.searchParams.set('limit', String(Math.min(Math.max(limit, 1), 50)));
+		apiUrl.searchParams.set('limit', String(fetchLimit));
 		apiUrl.searchParams.set('page', String(Math.max(page, 0)));
 
 		const response = await fetch(apiUrl.toString(), {
@@ -207,7 +215,17 @@ async function handleSearchArticles(
 
 		const data = await response.json() as VKSearchResponse;
 
-		const articles: SanitizedArticle[] = data.result.hits.map(article => ({
+		let hits = data.result.hits;
+
+		// Filter out TT articles if local_only is true
+		if (local_only) {
+			hits = hits.filter(article => !article.authors?.some(a => a.name === 'TT'));
+		}
+
+		// Apply the requested limit after filtering
+		const limitedHits = hits.slice(0, Math.min(Math.max(limit, 1), 50));
+
+		const articles: SanitizedArticle[] = limitedHits.map(article => ({
 			headline: article.headline,
 			preamble: article.preamble,
 			urlPath: article.urlPath,
@@ -224,6 +242,7 @@ async function handleSearchArticles(
 					totalHits: data.result.totalHits,
 					page,
 					limit,
+					local_only,
 					articles,
 				}, null, 2),
 			}],
