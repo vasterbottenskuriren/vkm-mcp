@@ -240,6 +240,20 @@ const authHandler = {
 		const site = getSiteFromHost(url.hostname);
 		const serverUrl = getServerUrl(site);
 
+		// OAuth Protected Resource Metadata (RFC 9728) - tells Claude where to find auth
+		if (url.pathname === '/.well-known/oauth-protected-resource') {
+			return Response.json({
+				resource: serverUrl,
+				authorization_servers: [serverUrl],
+				scopes_supported: ['articles:search'],
+			}, {
+				headers: {
+					'Content-Type': 'application/json',
+					'Cache-Control': 'public, max-age=3600',
+				},
+			});
+		}
+
 		// OAuth 2.1 Authorization Server Metadata (RFC 8414)
 		if (url.pathname === '/.well-known/oauth-authorization-server') {
 			return Response.json({
@@ -253,6 +267,8 @@ const authHandler = {
 				code_challenge_methods_supported: ['S256'],
 				token_endpoint_auth_methods_supported: ['none', 'client_secret_post'],
 				service_documentation: `https://www.${site.domain}`,
+				// MCP endpoint for tool calls
+				mcp_endpoint: `${serverUrl}/mcp`,
 			}, {
 				headers: {
 					'Content-Type': 'application/json',
@@ -322,14 +338,22 @@ const authHandler = {
 			}
 		}
 
+		// Root path - redirect to metadata or show info
+		if (url.pathname === '/') {
+			return Response.json({
+				name: `${site.name} MCP Server`,
+				mcp_endpoint: `${serverUrl}/mcp`,
+				oauth_metadata: `${serverUrl}/.well-known/oauth-authorization-server`,
+			});
+		}
+
 		// Default: return 404
 		return new Response('Not Found', { status: 404 });
 	},
 };
 
 // Create the MCP handler using McpAgent.serve()
-// Note: Claude expects MCP at root path '/', not '/mcp'
-const mcpHandler = VKMcpAgent.serve('/', {
+const mcpHandler = VKMcpAgent.serve('/mcp', {
 	binding: 'MCP_OBJECT',
 });
 
@@ -337,7 +361,7 @@ const mcpHandler = VKMcpAgent.serve('/', {
  * Main OAuth Provider export
  */
 export default new OAuthProvider({
-	apiRoute: '/',
+	apiRoute: '/mcp',
 	apiHandler: mcpHandler,
 	defaultHandler: authHandler,
 	authorizeEndpoint: '/authorize',
