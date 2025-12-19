@@ -5,7 +5,7 @@
  * Uses raw MCP protocol handling - no Durable Objects required.
  */
 
-import type { VKSearchResponse, SanitizedArticle, ArticleContentResponse, ArticleTextElement } from './types';
+import type { VKSearchResponse, SanitizedArticle, ArticleContentResponse, ArticleTextElement, FeedernResponse, SanitizedFeedernArticle } from './types';
 
 // Supported newspaper sites
 interface SiteConfig {
@@ -137,6 +137,30 @@ const TOOLS = [
 				}
 			},
 			required: ['urlPath']
+		}
+	},
+	{
+		name: 'get_latest_articles',
+		description: 'Get the latest published articles. Returns the most recently published articles from the newspaper.',
+		inputSchema: {
+			type: 'object',
+			properties: {},
+			required: []
+		}
+	},
+	{
+		name: 'get_most_read',
+		description: 'Get the most read articles. Returns articles ranked by reader popularity/views.',
+		inputSchema: {
+			type: 'object',
+			properties: {
+				premium_only: {
+					type: 'boolean',
+					description: 'If true, only return premium/subscriber-only articles',
+					default: false
+				}
+			},
+			required: []
 		}
 	}
 ];
@@ -307,6 +331,106 @@ async function handleGetArticle(
 	}
 }
 
+// Feedern API base URL
+const FEEDERN_API_BASE = 'https://feedern.vkmedia.se';
+
+// Helper to sanitize feedern articles
+function sanitizeFeedernArticle(article: FeedernResponse['articles'][0]): SanitizedFeedernArticle {
+	return {
+		headline: article.headline,
+		preamble: article.preamble,
+		urlPath: article.urlPath,
+		categories: article.categories?.map(c => c.name) || [],
+		places: article.places?.map(p => p.name) || [],
+		topics: article.topics?.map(t => t.name) || [],
+		authors: article.authors?.map(a => a.name) || [],
+		publishDate: article.publishDate,
+		paywall: article.paywall,
+		...(article.count !== undefined && { count: article.count }),
+	};
+}
+
+// Handle get_latest_articles tool call
+async function handleGetLatestArticles(
+	site: SiteConfig
+): Promise<{ content: Array<{ type: string; text: string }>; isError?: boolean }> {
+	try {
+		const url = `${FEEDERN_API_BASE}/${site.apiPathPrefix}/latest`;
+
+		const response = await fetch(url, {
+			headers: { 'Content-Type': 'application/json' },
+		});
+
+		if (!response.ok) {
+			return {
+				content: [{ type: 'text', text: `Unable to fetch latest articles from ${site.name}` }],
+				isError: true,
+			};
+		}
+
+		const data = await response.json() as FeedernResponse;
+		const articles = data.articles.map(sanitizeFeedernArticle);
+
+		return {
+			content: [{
+				type: 'text',
+				text: JSON.stringify({
+					site: site.name,
+					count: articles.length,
+					articles,
+				}, null, 2),
+			}],
+		};
+	} catch (error) {
+		return {
+			content: [{ type: 'text', text: 'Unable to fetch latest articles at this time' }],
+			isError: true,
+		};
+	}
+}
+
+// Handle get_most_read tool call
+async function handleGetMostRead(
+	args: { premium_only?: boolean },
+	site: SiteConfig
+): Promise<{ content: Array<{ type: string; text: string }>; isError?: boolean }> {
+	try {
+		const { premium_only = false } = args;
+		const url = `${FEEDERN_API_BASE}/${site.apiPathPrefix}/mostread${premium_only ? '?paywallTypes=premium' : ''}`;
+
+		const response = await fetch(url, {
+			headers: { 'Content-Type': 'application/json' },
+		});
+
+		if (!response.ok) {
+			return {
+				content: [{ type: 'text', text: `Unable to fetch most read articles from ${site.name}` }],
+				isError: true,
+			};
+		}
+
+		const data = await response.json() as FeedernResponse;
+		const articles = data.articles.map(sanitizeFeedernArticle);
+
+		return {
+			content: [{
+				type: 'text',
+				text: JSON.stringify({
+					site: site.name,
+					premium_only,
+					count: articles.length,
+					articles,
+				}, null, 2),
+			}],
+		};
+	} catch (error) {
+		return {
+			content: [{ type: 'text', text: 'Unable to fetch most read articles at this time' }],
+			isError: true,
+		};
+	}
+}
+
 // Handle MCP JSON-RPC request
 async function handleMcpRequest(
 	body: any,
@@ -361,6 +485,24 @@ async function handleMcpRequest(
 
 			if (toolName === 'get_article') {
 				const result = await handleGetArticle(toolArgs, authToken, site);
+				return {
+					jsonrpc: '2.0',
+					id,
+					result
+				};
+			}
+
+			if (toolName === 'get_latest_articles') {
+				const result = await handleGetLatestArticles(site);
+				return {
+					jsonrpc: '2.0',
+					id,
+					result
+				};
+			}
+
+			if (toolName === 'get_most_read') {
+				const result = await handleGetMostRead(toolArgs, site);
 				return {
 					jsonrpc: '2.0',
 					id,
@@ -739,7 +881,7 @@ export default {
 						discovery: `${serverUrl}/.well-known/oauth-authorization-server`
 					},
 					capabilities: {
-						tools: ['search_articles', 'get_article'],
+						tools: ['search_articles', 'get_article', 'get_latest_articles', 'get_most_read'],
 						oauth: true,
 						refresh_tokens: true
 					}

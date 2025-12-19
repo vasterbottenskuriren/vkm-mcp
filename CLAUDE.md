@@ -82,6 +82,21 @@ Parameters:
 
 Returns: Full article text with headlines, body paragraphs, blockquotes, and image captions
 
+#### get_latest_articles
+Get the most recently published articles.
+
+Parameters: None
+
+Returns: headline, preamble, urlPath, categories, places, topics, authors, publishDate, paywall
+
+#### get_most_read
+Get the most read/popular articles.
+
+Parameters:
+- `premium_only` (boolean, optional, default: false) - If true, only return premium articles
+
+Returns: headline, preamble, urlPath, categories, places, topics, authors, publishDate, paywall, count (view count)
+
 ### KV Keys
 
 | Pattern | Purpose | TTL |

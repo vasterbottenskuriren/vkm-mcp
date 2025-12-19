@@ -60,3 +60,50 @@ export interface SanitizedArticle {
 	authors: string[];
 	publishDate: string;
 }
+
+// Feedern API article structure (latest/mostread)
+export interface FeedernArticle {
+	uuid: string;
+	headline: string;
+	preamble: string;
+	urlPath: string;
+	categories: Array<{ name: string; slug: string }>;
+	places: Array<{ name: string }>;
+	topics: Array<{ name: string }>;
+	teaser: {
+		text: string;
+		title: string;
+		image?: { filename: string };
+	};
+	images: Array<{ uuid: string; filename: string }>;
+	paywall: string;
+	authors: Array<{
+		uuid: string;
+		name: string;
+		contactInfo?: { email?: string };
+	}>;
+	photographers: Array<{ name: string }>;
+	updateDate: string;
+	publishDate: string;
+	url: string;
+	imageUrl?: string;
+	count?: number; // Only present in mostread
+}
+
+export interface FeedernResponse {
+	articles: FeedernArticle[];
+}
+
+// Sanitized feedern article for Claude
+export interface SanitizedFeedernArticle {
+	headline: string;
+	preamble: string;
+	urlPath: string;
+	categories: string[];
+	places: string[];
+	topics: string[];
+	authors: string[];
+	publishDate: string;
+	paywall: string;
+	count?: number;
+}
