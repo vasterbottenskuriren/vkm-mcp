@@ -828,7 +828,40 @@ export default {
 			});
 		}
 
-		// MCP endpoint - requires authentication
+		// SSE endpoint - requires authentication (for Claude Code)
+		if (url.pathname === '/sse' || url.pathname === '/sse/message') {
+			const authResult = await requireMCPAuth(request, env);
+			if (authResult instanceof Response) {
+				return authResult;
+			}
+
+			// Create a new request with auth context in custom headers
+			const headers = new Headers(request.headers);
+			headers.set('X-VK-Auth-Token', authResult.authToken);
+			headers.set('X-VK-Site-Domain', authResult.siteDomain);
+
+			const modifiedRequest = new Request(request.url, {
+				method: request.method,
+				headers,
+				body: request.body,
+				duplex: 'half',
+			} as RequestInit);
+
+			// Pass to SSE handler
+			const response = await VKMcpAgent.serveSSE('/sse').fetch(modifiedRequest, env, ctx);
+
+			// Add CORS headers to SSE response
+			const responseHeaders = new Headers(response.headers);
+			Object.entries(corsHeaders).forEach(([key, value]) => {
+				responseHeaders.set(key, value);
+			});
+			return new Response(response.body, {
+				status: response.status,
+				headers: responseHeaders
+			});
+		}
+
+		// MCP endpoint - requires authentication (streamable HTTP)
 		if (url.pathname === '/mcp') {
 			const authResult = await requireMCPAuth(request, env);
 			if (authResult instanceof Response) {
