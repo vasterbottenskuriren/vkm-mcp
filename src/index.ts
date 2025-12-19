@@ -596,22 +596,51 @@ export default {
 			return new Response(null, { headers: corsHeaders });
 		}
 
-		// Root - server info
-		if (url.pathname === '/' && request.method === 'GET') {
-			return new Response(JSON.stringify({
-				name: `${site.name} MCP Server`,
-				version: '1.0.0',
-				description: `Search ${site.name} newspaper articles`,
-				authentication: {
-					type: 'oauth2.1',
-					discovery: `${serverUrl}/.well-known/oauth-authorization-server`
-				},
-				capabilities: {
-					tools: ['search_articles'],
-					oauth: true,
-					refresh_tokens: true
+		// Root - GET returns server info, POST handles MCP
+		if (url.pathname === '/') {
+			if (request.method === 'GET' || request.method === 'HEAD') {
+				return new Response(JSON.stringify({
+					name: `${site.name} MCP Server`,
+					version: '1.0.0',
+					description: `Search ${site.name} newspaper articles`,
+					authentication: {
+						type: 'oauth2.1',
+						discovery: `${serverUrl}/.well-known/oauth-authorization-server`
+					},
+					capabilities: {
+						tools: ['search_articles'],
+						oauth: true,
+						refresh_tokens: true
+					}
+				}), { headers: { 'Content-Type': 'application/json', ...corsHeaders } });
+			}
+
+			// POST to root = MCP JSON-RPC
+			if (request.method === 'POST') {
+				const authResult = await validateToken(request, env);
+				if (authResult instanceof Response) {
+					return authResult;
 				}
-			}), { headers: { 'Content-Type': 'application/json', ...corsHeaders } });
+
+				const body = await request.json().catch(() => null);
+				if (!body) {
+					return new Response(JSON.stringify({
+						jsonrpc: '2.0',
+						error: { code: -32700, message: 'Parse error' }
+					}), { headers: { 'Content-Type': 'application/json', ...corsHeaders } });
+				}
+
+				const mcpSite = SITES[authResult.siteDomain] || site;
+				const response = await handleMcpRequest(body, authResult.authToken, mcpSite);
+
+				if (response === null) {
+					return new Response(null, { status: 204, headers: corsHeaders });
+				}
+
+				return new Response(JSON.stringify(response), {
+					headers: { 'Content-Type': 'application/json', ...corsHeaders }
+				});
+			}
 		}
 
 		// OAuth Protected Resource Metadata (RFC 9728)
