@@ -7,35 +7,54 @@
 	"name": "vkm-mcp",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-12-19",
+	"compatibility_flags": ["nodejs_compat"],
 	"observability": {
 		"enabled": true
-	}
+	},
+
 	/**
-	 * Smart Placement
-	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
+	 * KV Namespace for OAuth token storage
+	 * Create with: wrangler kv namespace create OAUTH_KV
+	 * Then update the id below with the returned ID
 	 */
-	// "placement": {  "mode": "smart" }
+	"kv_namespaces": [
+		{
+			"binding": "OAUTH_KV",
+			"id": "REPLACE_WITH_KV_NAMESPACE_ID"
+		}
+	],
+
 	/**
-	 * Bindings
-	 * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
-	 * databases, object storage, AI inference, real-time communication and more.
-	 * https://developers.cloudflare.com/workers/runtime-apis/bindings/
+	 * Durable Objects for MCP Agent state
 	 */
+	"durable_objects": {
+		"bindings": [
+			{
+				"name": "MCP_OBJECT",
+				"class_name": "VKMcpAgent"
+			}
+		]
+	},
+	"migrations": [
+		{
+			"tag": "v1",
+			"new_classes": ["VKMcpAgent"]
+		}
+	]
+
 	/**
-	 * Environment Variables
-	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
-	 * Note: Use secrets to store sensitive data.
-	 * https://developers.cloudflare.com/workers/configuration/secrets/
+	 * Routes - configure once DNS is set up
+	 * "routes": [
+	 *   { "pattern": "mcp.content.vk.se", "zone_name": "content.vk.se" }
+	 * ]
 	 */
-	// "vars": {  "MY_VARIABLE": "production_value" }
+
 	/**
-	 * Static Assets
-	 * https://developers.cloudflare.com/workers/static-assets/binding/
+	 * Rate Limiting - add when ready
+	 * See: https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/
+	 * "ratelimits": [
+	 *   { "name": "OAUTH_RATE_LIMIT", "namespace_id": "1", "simple": { "limit": 10, "period": 60 } },
+	 *   { "name": "MCP_RATE_LIMIT", "namespace_id": "2", "simple": { "limit": 60, "period": 60 } }
+	 * ]
 	 */
-	// "assets": {  "directory": "./public/",  "binding": "ASSETS" }
-	/**
-	 * Service Bindings (communicate between multiple Workers)
-	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
-	 */
-	// "services": [  {   "binding": "MY_SERVICE",   "service": "my-service"  } ]
 }

@@ -1,0 +1,2674 @@
+{
+    "result": {
+        "includedHits": 15,
+        "totalHits": 1174,
+        "hits": [
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "david.klingberg@vk.se",
+                            "phone": "090-175955"
+                        },
+                        "description": {},
+                        "name": "David Klingberg",
+                        "uuid": "c12866ef-cbc1-405e-bb8b-0d519642a55e",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Livsstil & Familj/Sällskapsdjur]"
+                        },
+                        "name": "Sällskapsdjur",
+                        "uuid": "c1680332-832b-50bb-9583-009305bbda33",
+                        "slug": "sallskapsdjur",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet",
+                    "xPusha",
+                    "VK Lite"
+                ],
+                "conceptUuids": [
+                    "c12866ef-cbc1-405e-bb8b-0d519642a55e",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "c1680332-832b-50bb-9583-009305bbda33",
+                    "c1bca6d4-ce53-5b0b-ad77-79fcd4936a74",
+                    "01794014-cfb1-5cfd-8204-7642072ce86a",
+                    "0b8233a1-2893-5e52-a300-66e876f201a1",
+                    "8022aee7-7d0c-516f-99be-05a3f25f7cce",
+                    "e8f53dcf-be2e-5bca-a3b8-e2ab99a4fd83",
+                    "cdad2143-86f1-5bfd-b69a-22987e3a179d",
+                    "2b704b4f-f1a1-5947-b3ac-50afd2a3c78d",
+                    "a91b53fe-5069-5b24-8e97-ac22dd5dd484",
+                    "4beb4d68-7d89-59ef-ae79-a42ab33a5739",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "667efee0-f11d-4aab-9a38-1e7a7eec40f6",
+                    "218772e3-5669-5540-b912-d658e8bdc916",
+                    "9ca3939d-e258-5c19-8733-0e6c70dca48a",
+                    "8de403e0-f4c2-4bb2-994f-731157a9a032",
+                    "fa5b3a36-0146-4a7b-a0a8-1bb60fc63a2a",
+                    "096b7a42-74e5-4e48-93ae-36228cfd0a47"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Får förbud att ha katt – hittades i misär vid husvisning",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Martina Holmberg / TT"
+                        ],
+                        "caption": "20230401\nKatt, Hägersten.\nFoto: Fotograferna Holmberg / TT / kod 96",
+                        "filename": "y2UZ6Tq0Vuvk6IG30v7lW66eViA.jpg",
+                        "height": 3207,
+                        "uuid": "906d6774-676e-5e30-b030-4fb623d70e30",
+                        "width": 4703
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 4,
+                "oldPaths": [
+                    "/2025-12-16/forbjuds-ha-katt-hittades-i-misar-under-kronofogdens-auktion-bd308",
+                    "/2025-12-16/far-forbud-katter-hittades-i-misar-vid-husvisning-bd308"
+                ],
+                "organisations": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Länsstyrelsen",
+                        "uuid": "01794014-cfb1-5cfd-8204-7642072ce86a",
+                        "status": "usable"
+                    },
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Kronofogden",
+                        "uuid": "0b8233a1-2893-5e52-a300-66e876f201a1",
+                        "status": "usable"
+                    }
+                ],
+                "paywall": "premium",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Västerbottens län",
+                        "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Sverige",
+                            "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "En man i en kranskommun nära Umeå har fått ett förbud om att ha katt. Detta efter fyra katter hittats i misär i ett hus som auktionerades ut via kronofogden. Katterna levde bland urin, avföring, sopor och bråte och två av katterna var tvungna att avlivas då det blivit förvildade.",
+                "publishDate": "2025-12-16T13:30:00.000Z",
+                "section": {
+                    "name": "Nyheter",
+                    "uuid": "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "slug": "allmant",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "entryWord": "Får förbud:",
+                    "image": {
+                        "authors": [
+                            "Martina Holmberg / TT"
+                        ],
+                        "caption": "20230401\nKatt, Hägersten.\nFoto: Fotograferna Holmberg / TT / kod 96",
+                        "filename": "y2UZ6Tq0Vuvk6IG30v7lW66eViA.jpg",
+                        "height": 3207,
+                        "uuid": "906d6774-676e-5e30-b030-4fb623d70e30",
+                        "width": 4703
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "LOKALT",
+                    "label": "LOKALT",
+                    "relatedArticles": [],
+                    "text": "Länsbo får förbud att ha katter • Var tvungna att avlivas",
+                    "title": "Katter levde i misär – hittades vid husvisning"
+                },
+                "teaserLite": {
+                    "title": "Får förbud att ha katt – hittades i misär vid husvisning",
+                    "text": [
+                        {
+                            "id": "paragraph-e55d715986ee9c3cef91e06a809690a9",
+                            "text": [
+                                {
+                                    "type": "text",
+                                    "text": "En man i en kranskommun till Umeå har förbjudits att ha katt efter att fyra katter hittats i misär i ett hus som skulle säljas av Kronofogden. Vid en husvisning slog en besökare larm om att katterna levde bland avföring, urin, sopor och utan foder eller el."
+                                }
+                            ],
+                            "type": "body"
+                        },
+                        {
+                            "id": "paragraph-aaebcad226d2436ebf952e90bd7f6b08",
+                            "text": [
+                                {
+                                    "type": "text",
+                                    "text": "Länsstyrelsen gjorde en oanmäld kontroll och fann katterna i det övergivna huset, där mannen inte längre bodde. Trots kravet att städa och ordna en trygg miljö inom tre dagar hade inget hänt vid en uppföljande kontroll. Alla fyra katterna omhändertogs, varav två fick fångas in med fällor efter att ha gömt sig i väggarna."
+                                }
+                            ],
+                            "type": "body"
+                        },
+                        {
+                            "id": "paragraph-9870c2e39471999367caf1ed1dd9d94a",
+                            "text": [
+                                {
+                                    "type": "text",
+                                    "text": "Veterinärer bedömde att två av katterna var så förvildade och rädda för människor att de behövde avlivas. Länsstyrelsen slår i sitt beslut fast att mannen allvarligt försummat sina djur och därför inte längre får ha katter. Beslutet kan överklagas till förvaltningsrätten."
+                                }
+                            ],
+                            "type": "body"
+                        }
+                    ],
+                    "imageCrops": [
+                        {
+                            "title": "9:16",
+                            "crop": "0.2275/0/0.38375/1"
+                        }
+                    ],
+                    "image": {
+                        "authors": [
+                            "Martina Holmberg / TT"
+                        ],
+                        "caption": "20230401\nKatt, Hägersten.\nFoto: Fotograferna Holmberg / TT / kod 96",
+                        "filename": "y2UZ6Tq0Vuvk6IG30v7lW66eViA.jpg",
+                        "height": 3207,
+                        "uuid": "906d6774-676e-5e30-b030-4fb623d70e30",
+                        "width": 4703
+                    }
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Djurhållning",
+                        "status": "withheld",
+                        "uuid": "8022aee7-7d0c-516f-99be-05a3f25f7cce"
+                    },
+                    {
+                        "description": {},
+                        "name": "Djurskydd",
+                        "status": "withheld",
+                        "uuid": "e8f53dcf-be2e-5bca-a3b8-e2ab99a4fd83"
+                    },
+                    {
+                        "description": {},
+                        "name": "Myndigheter",
+                        "status": "withheld",
+                        "uuid": "cdad2143-86f1-5bfd-b69a-22987e3a179d"
+                    },
+                    {
+                        "description": {},
+                        "name": "Inspektioner",
+                        "status": "withheld",
+                        "uuid": "2b704b4f-f1a1-5947-b3ac-50afd2a3c78d"
+                    },
+                    {
+                        "description": {},
+                        "name": "Auktioner",
+                        "status": "withheld",
+                        "uuid": "a91b53fe-5069-5b24-8e97-ac22dd5dd484"
+                    },
+                    {
+                        "description": {},
+                        "name": "Etik",
+                        "status": "withheld",
+                        "uuid": "4beb4d68-7d89-59ef-ae79-a42ab33a5739"
+                    }
+                ],
+                "updateDate": "2025-12-17T18:23:41.000Z",
+                "urlPath": "/2025-12-16/far-forbud-att-ha-katt-hittades-i-misar-vid-husvisning-bd308",
+                "uuid": "bd3085d3-22dd-4ee5-b842-7d9fca1f9c67"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "TT",
+                        "uuid": "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Brott, lag och rätt/Terrorism]"
+                        },
+                        "name": "Terrorism",
+                        "uuid": "ad3aadd2-46a2-55c6-82fd-1d7c619cfc7f",
+                        "slug": "terrorism",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet"
+                ],
+                "conceptUuids": [
+                    "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "ad3aadd2-46a2-55c6-82fd-1d7c619cfc7f",
+                    "1cd0efff-e144-5470-a604-47e670b6b6d7",
+                    "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "034e26a9-9166-5e93-8ee4-e014bb968868",
+                    "7c554949-c772-5889-88cb-dc802f07a928",
+                    "c0951d7b-3504-5c4b-bf66-dba1e6d3d3bb",
+                    "0bc50d2d-803e-4347-9979-a8b256d4bb85",
+                    "80bd9c48-d7a4-48c9-8d11-68011bdefdcf",
+                    "3cbe4f17-0992-5eef-a205-8fe5f83b438e",
+                    "4452c2b5-90e1-5880-8f3a-5a8590641869",
+                    "f5056d21-4614-59de-b093-7a6dcdd367c1",
+                    "1d079550-ab5a-51fc-81d2-4b6338efe728",
+                    "dbb73fef-81a7-54aa-9ecd-dc68d05730b5",
+                    "98789404-b607-5c36-a90a-56554955cded",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Så rekryteras unga till nazism",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "filename": "j_G-XCs29Wl6HfFPAXtVxYl2_Vw.jpg",
+                        "height": 683,
+                        "uuid": "0dc6e9bd-f737-5c32-afa1-f3ba15847dfa",
+                        "width": 1024
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 2,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Daniel Poohl",
+                        "uuid": "dbb73fef-81a7-54aa-9ecd-dc68d05730b5",
+                        "status": "usable"
+                    },
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Björn Berglund",
+                        "uuid": "98789404-b607-5c36-a90a-56554955cded",
+                        "status": "usable"
+                    }
+                ],
+                "photographers": [],
+                "places": [],
+                "podcasts": [],
+                "preamble": "Högerextrema grupper raggar målmedvetet och genomtänkt nya medlemmar. Skolor och dataspel är viktiga arenor. Det skriver organisationen Expo i en ny rapport.  ",
+                "publishDate": "2025-12-15T18:02:23.000Z",
+                "section": {
+                    "name": "Nyheter",
+                    "uuid": "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "slug": "allmant",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "filename": "j_G-XCs29Wl6HfFPAXtVxYl2_Vw.jpg",
+                        "height": 683,
+                        "uuid": "0dc6e9bd-f737-5c32-afa1-f3ba15847dfa",
+                        "width": 1024
+                    },
+                    "imageCrops": [],
+                    "relatedArticles": [],
+                    "text": "Högerextrema grupper raggar målmedvetet och genomtänkt nya medlemmar. Skolor och dataspel är viktiga arenor. Det skriver organisationen Expo i en ny rapport.  ",
+                    "title": "Så rekryteras unga till nazism"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Nazism",
+                        "status": "withheld",
+                        "uuid": "034e26a9-9166-5e93-8ee4-e014bb968868"
+                    },
+                    {
+                        "description": {},
+                        "name": "Diskriminering",
+                        "status": "usable",
+                        "uuid": "7c554949-c772-5889-88cb-dc802f07a928"
+                    },
+                    {
+                        "description": {},
+                        "name": "Rasism",
+                        "status": "usable",
+                        "uuid": "c0951d7b-3504-5c4b-bf66-dba1e6d3d3bb"
+                    },
+                    {
+                        "description": {},
+                        "name": "Säkerhet",
+                        "status": "withheld",
+                        "uuid": "0bc50d2d-803e-4347-9979-a8b256d4bb85"
+                    },
+                    {
+                        "description": {},
+                        "name": "Skola",
+                        "status": "withheld",
+                        "uuid": "80bd9c48-d7a4-48c9-8d11-68011bdefdcf"
+                    },
+                    {
+                        "description": {},
+                        "name": "Sociala medier",
+                        "status": "withheld",
+                        "uuid": "3cbe4f17-0992-5eef-a205-8fe5f83b438e"
+                    },
+                    {
+                        "description": {},
+                        "name": "Datorspel",
+                        "status": "withheld",
+                        "uuid": "4452c2b5-90e1-5880-8f3a-5a8590641869"
+                    },
+                    {
+                        "description": {},
+                        "name": "Rekrytering",
+                        "status": "withheld",
+                        "uuid": "f5056d21-4614-59de-b093-7a6dcdd367c1"
+                    },
+                    {
+                        "description": {},
+                        "name": "Familj",
+                        "status": "withheld",
+                        "uuid": "1d079550-ab5a-51fc-81d2-4b6338efe728"
+                    }
+                ],
+                "updateDate": "2025-12-16T04:53:34.000Z",
+                "urlPath": "/2025-12-15/sa-rekryteras-unga-till-nazism-19072",
+                "uuid": "1907271a-66ab-547f-a14f-b4f7ffd69e04"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "mollie.zetterquist@vk.se",
+                            "phone": "090-176000"
+                        },
+                        "description": {},
+                        "name": "Mollie Zetterquist",
+                        "uuid": "3661b144-a061-445a-bc6b-a36876cfbe19",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "Etablering och/eller konstaterande av samhällets regler, dessa reglers genomförande, brott mot reglerna och bestraffning av förbrytarna. Organisationer och myndigheter inblandade i dessa aktiviteter. Brott, domstolsväsende, polis, straff, fängelse."
+                        },
+                        "name": "Brott, lag och rätt",
+                        "uuid": "1cd0efff-e144-5470-a604-47e670b6b6d7",
+                        "slug": "brott-lag-och-ratt",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet",
+                    "xPusha",
+                    "xFacebook",
+                    "xInstagram",
+                    "VK Lite"
+                ],
+                "conceptUuids": [
+                    "3661b144-a061-445a-bc6b-a36876cfbe19",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "91614b47-08ab-5506-bb70-a67ae13f8667",
+                    "a6c9c028-8ce1-5bc9-a99a-97c46d9c40fe",
+                    "218772e3-5669-5540-b912-d658e8bdc916",
+                    "9ca3939d-e258-5c19-8733-0e6c70dca48a",
+                    "01794014-cfb1-5cfd-8204-7642072ce86a",
+                    "5e149c60-d408-5637-86ae-796e0615ba76",
+                    "af1e0396-f360-5cda-b314-c413cc2a554e",
+                    "79b3ec11-c78a-52db-b044-d03817c56a64",
+                    "8022aee7-7d0c-516f-99be-05a3f25f7cce",
+                    "e8f53dcf-be2e-5bca-a3b8-e2ab99a4fd83",
+                    "58e2a48f-29b4-522f-aa8c-ae2cb49d3905",
+                    "d0b051ba-34e4-5211-90d4-6672d109ae38",
+                    "5916588e-34c9-5065-8a67-3b8b7f3720a5",
+                    "fd2fb002-e642-52aa-9242-ec1fbf0198fc",
+                    "db7c53a1-d150-5d06-af57-d6e441994bc8",
+                    "1cd0efff-e144-5470-a604-47e670b6b6d7",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "667efee0-f11d-4aab-9a38-1e7a7eec40f6",
+                    "8601678d-8c5d-4735-a889-71702f2d1e32",
+                    "04613522-0e79-490d-a8bb-1e44a4105935",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "211dbb01-e78c-4fba-993b-f577c1a1c042",
+                    "4686a9aa-41fd-4c69-aecf-bcbd6f7a1d4d",
+                    "7e3de456-0b15-4aa2-9bb4-2f98991cc62b",
+                    "096b7a42-74e5-4e48-93ae-36228cfd0a47"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Katten Gustavs lidande: ”Värsta tänkbara tandvärk”",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Pixabay"
+                        ],
+                        "caption": "Katt",
+                        "filename": "a99BGcYVgxn8351v8LfFLh4f6FI.jpg",
+                        "height": 1704,
+                        "uuid": "59ae007f-bb91-5d31-b693-47a5c6de12eb",
+                        "width": 2557
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 4,
+                "oldPaths": [],
+                "organisations": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Länsstyrelsen",
+                        "uuid": "01794014-cfb1-5cfd-8204-7642072ce86a",
+                        "status": "usable"
+                    },
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Polisen",
+                        "uuid": "5e149c60-d408-5637-86ae-796e0615ba76",
+                        "status": "usable"
+                    }
+                ],
+                "paywall": "premium",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Umeå",
+                        "uuid": "91614b47-08ab-5506-bb70-a67ae13f8667",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Umeå kommun",
+                            "uuid": "a6c9c028-8ce1-5bc9-a99a-97c46d9c40fe",
+                            "broader": {
+                                "name": "Västerbottens län",
+                                "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                                "broader": {
+                                    "name": "Sverige",
+                                    "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Efter att katten Gustav besökte veterinären i mycket dåligt skick anmäldes ett pensionärspar i länet till Länsstyrelsen. Paret misstänks nu för grovt djurplågeri efter att ha väntat för länge med att avliva den gamla katten.",
+                "publishDate": "2025-12-12T12:49:13.000Z",
+                "section": {
+                    "name": "Nyheter",
+                    "uuid": "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "slug": "allmant",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": true,
+                "summary": "<ul><li>Ett pensionärspar i en av Umeås grannkommuner misstänks för grovt djurplågeri mot sin gamla katt Gustav.</li><li>Katten kom i mycket dåligt skick till avlivning, var kraftigt avmagrad och hade allvarliga tand- och munproblem.</li><li>Länsstyrelsen bedömer att Gustav utsatts för kraftigt lidande på grund av bristande veterinärvård och för sen avlivning.</li><li>Paret uppger att ekonomi, snöoväder och okunskap bidrog till förseningen.</li></ul>",
+                "teaser": {
+                    "entryWord": "Katten Gustavs lidande:",
+                    "image": {
+                        "authors": [
+                            "pixabay"
+                        ],
+                        "caption": "Puffbild",
+                        "filename": "ZAQNLfSSEyKBzVhzvR6dTUfv9nI.jpg",
+                        "height": 900,
+                        "uuid": "67cbbf0d-bbf7-5ab2-9b64-66cb3f1f991f",
+                        "width": 1600
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "UMEÅ",
+                    "label": "BROTT",
+                    "relatedArticles": [],
+                    "text": "”Värsta tänkbara tandvärk” • Skyllde på snöoväder • Katten vanvårdades under lång tid",
+                    "title": "Par misstänks för brott"
+                },
+                "teaserLite": {
+                    "title": "Katten Gustavs lidande: ”Värsta tänkbara tandvärk”",
+                    "text": [
+                        {
+                            "id": "paragraph-c9c470cff3645f5f1e192e20b7cd8275",
+                            "text": [
+                                {
+                                    "type": "text",
+                                    "text": "Ett pensionärspar i en kranskommun till Umeå misstänks för grovt djurplågeri mot sin gamla katt Gustav. När katten kom in för avlivning i februari var den svårt avmagrad och hade mycket dåliga tänder. "
+                                }
+                            ],
+                            "type": "body"
+                        },
+                        {
+                            "id": "paragraph-8c20d141424af64fbfade3c37c4d34e1",
+                            "text": [
+                                {
+                                    "type": "text",
+                                    "text": "En djurskötare slog larm till Länsstyrelsen efter att ha bedömt att katten lidit länge och inte kunnat äta ordentligt. En kraftig inflammation i munnen hade lett till hål upp i näshålan och var rann ur ena näsborren. "
+                                }
+                            ],
+                            "type": "body"
+                        },
+                        {
+                            "id": "paragraph-b751aab9df38067a54a8e76d6f1c3b8d",
+                            "text": [
+                                {
+                                    "type": "text",
+                                    "text": "Paret uppger att de trodde att katten skulle dö hemma och att dålig ekonomi och snöoväder försenade veterinärbesöket. Båda säger att de ångrar sig och medger att de borde sökt hjälp tidigare. De erkänner brott och är beredda att ta emot böter. Polisens utredning om grovt djurplågeri fortsätter."
+                                }
+                            ],
+                            "type": "body"
+                        }
+                    ],
+                    "imageCrops": [
+                        {
+                            "title": "9:16",
+                            "crop": "0.45/0.11522633744855967/0.28375/0.831275720164609"
+                        }
+                    ],
+                    "image": {
+                        "authors": [
+                            "Heiko Junge"
+                        ],
+                        "caption": "Maura, Gardermoen 20030723. Dyrepensjonat,  Hund og Katte hotel like ved Gardermoen flyplass.\nMens resten av Norge har tatt sommerferien er det fullt belegg på Gardermoen Hund og Katte hotel. Huskatt Simba nyter hotellivet i 17 dager.\nFoto: Heiko Junge / NTB",
+                        "filename": "btL7HaS3tU1IilypULAyhyEzL0Y.jpg",
+                        "height": 1050,
+                        "uuid": "8be8c5c7-c3dc-50aa-aca7-3c2a037c51d4",
+                        "width": 1728
+                    }
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Djurplågeri",
+                        "status": "withheld",
+                        "uuid": "af1e0396-f360-5cda-b314-c413cc2a554e"
+                    },
+                    {
+                        "description": {},
+                        "name": "Husdjur",
+                        "status": "withheld",
+                        "uuid": "79b3ec11-c78a-52db-b044-d03817c56a64"
+                    },
+                    {
+                        "description": {},
+                        "name": "Djurhållning",
+                        "status": "withheld",
+                        "uuid": "8022aee7-7d0c-516f-99be-05a3f25f7cce"
+                    },
+                    {
+                        "description": {},
+                        "name": "Djurskydd",
+                        "status": "withheld",
+                        "uuid": "e8f53dcf-be2e-5bca-a3b8-e2ab99a4fd83"
+                    },
+                    {
+                        "description": {},
+                        "name": "Veterinär",
+                        "status": "withheld",
+                        "uuid": "58e2a48f-29b4-522f-aa8c-ae2cb49d3905"
+                    },
+                    {
+                        "description": {},
+                        "name": "Ekonomi",
+                        "status": "withheld",
+                        "uuid": "d0b051ba-34e4-5211-90d4-6672d109ae38"
+                    },
+                    {
+                        "description": {},
+                        "name": "Polisanmälan",
+                        "status": "withheld",
+                        "uuid": "5916588e-34c9-5065-8a67-3b8b7f3720a5"
+                    },
+                    {
+                        "description": {},
+                        "name": "Rättegångar",
+                        "status": "withheld",
+                        "uuid": "fd2fb002-e642-52aa-9242-ec1fbf0198fc"
+                    },
+                    {
+                        "description": {},
+                        "name": "Djur",
+                        "status": "withheld",
+                        "uuid": "db7c53a1-d150-5d06-af57-d6e441994bc8"
+                    }
+                ],
+                "updateDate": "2025-12-13T14:43:23.000Z",
+                "urlPath": "/2025-12-12/katten-gustavs-lidande-varsta-tankbara-tandvark-c535e",
+                "uuid": "c535e934-558a-4fb4-a0c9-0064ac3bb674"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "lars.bohlin@vk.se",
+                            "phone": "090-176018"
+                        },
+                        "description": {
+                            "short": "Journalist och krönikör"
+                        },
+                        "image": {
+                            "authors": [
+                                "Per Landfors"
+                            ],
+                            "caption": "Bylinebild Lars Böhlin",
+                            "filename": "8oruF62EWEUk1VqQLH5Qyy-a57c.png",
+                            "height": 3143,
+                            "uuid": "d2f964a8-4576-5555-bf16-e8531f4ab053",
+                            "width": 1768
+                        },
+                        "name": "Lars Böhlin",
+                        "uuid": "de1411a4-53d6-5337-b59e-51dcf790f479",
+                        "status": "usable",
+                        "signature": "",
+                        "note": "#747E75"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Kultur och nöje/TV och film]"
+                        },
+                        "name": "TV och film",
+                        "uuid": "b1487071-08db-5ecb-a14b-01eae9e651e7",
+                        "slug": "tv-och-film",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK"
+                ],
+                "conceptUuids": [
+                    "de1411a4-53d6-5337-b59e-51dcf790f479",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "b1487071-08db-5ecb-a14b-01eae9e651e7",
+                    "90accced-3aec-5656-a295-7ef17baf6305",
+                    "f264d6b7-12fa-4caf-abde-86f8185c7252",
+                    "0a72e540-1a3e-47bd-bc3f-e544cafc9101",
+                    "e6730927-f0b2-546e-a751-01b990b92f8c",
+                    "7a776c68-c480-53b4-8cf3-df073df38944",
+                    "593244d8-658a-52a4-8263-89307b331dd9",
+                    "fe9fb449-2515-507b-8a05-b00b20aeb258",
+                    "208215a0-52c4-47df-8f30-fd36bd95e457"
+                ],
+                "contentProfile": {
+                    "name": "Recension",
+                    "uuid": "0a72e540-1a3e-47bd-bc3f-e544cafc9101"
+                },
+                "headline": "Omtumlande version av rysk klassiker",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Maywin"
+                        ],
+                        "caption": "Mästaren och Maragarita",
+                        "filename": "KXRSQZ6kQRHglOUMdvYSp03ryf8.jpg",
+                        "height": 976,
+                        "uuid": "6a806751-a10d-5141-bd63-10dab8b569a3",
+                        "width": 1920
+                    },
+                    {
+                        "authors": [
+                            "Maywin"
+                        ],
+                        "caption": "Mästaren och Maragarita",
+                        "filename": "IJ1tA_3jwjzJDQ5KlL00kS4JFwQ.jpg",
+                        "height": 960,
+                        "uuid": "77837f32-73e5-568d-a77f-a779fd9d450a",
+                        "width": 1920
+                    },
+                    {
+                        "authors": [
+                            "Maywin"
+                        ],
+                        "caption": "Mästaren och Maragarita",
+                        "filename": "JEoTjKLY08in8LDTj6756TRvpMs.jpg",
+                        "height": 1280,
+                        "uuid": "fb52e66b-b3cd-5fba-bce1-73c8e4319a48",
+                        "width": 1920
+                    },
+                    {
+                        "authors": [
+                            "Maywin"
+                        ],
+                        "caption": "Mästaren och Maragarita",
+                        "filename": "mC7CZqZ3x8_p2Hdh1VM4DKmSo-Y.jpg",
+                        "height": 1280,
+                        "uuid": "d502acf8-1572-5bda-b9f3-ba499f3420d3",
+                        "width": 1920
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 3,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Ryssland",
+                        "uuid": "e6730927-f0b2-546e-a751-01b990b92f8c",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Jorden",
+                            "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Klassisk roman som skildrar ett förtryckande samhälle har filmats och blivit en publiksuccé i Ryssland. ",
+                "publishDate": "2025-12-11T17:00:00.000Z",
+                "section": {
+                    "name": "Nöje",
+                    "uuid": "f264d6b7-12fa-4caf-abde-86f8185c7252",
+                    "slug": "noje",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": true,
+                "summary": "<ul><li>Recensionen handlar om en filmatisering av Michail Bulgakovs roman ”Mästaren och Margarita”.</li><li>Filmen beskrivs som omtumlande, estetiskt grandios och svåröverskådlig, med många samtidiga händelser och berättarspår.</li><li>Den upplevs som en mycket litterär film, starkt präglad av romanens struktur, satir och uppblåsta scenografi.</li><li>Filmen har blivit en publiksuccé i Ryssland.</li></ul>",
+                "teaser": {
+                    "image": {
+                        "authors": [
+                            "Maywin"
+                        ],
+                        "caption": "Mästaren och Maragarita",
+                        "filename": "KXRSQZ6kQRHglOUMdvYSp03ryf8.jpg",
+                        "height": 976,
+                        "uuid": "6a806751-a10d-5141-bd63-10dab8b569a3",
+                        "width": 1920
+                    },
+                    "imageCrops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0/0.905/1"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.16125/0/0.67875/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.24625/0/0.50875/1"
+                        },
+                        {
+                            "title": "9:16",
+                            "crop": "0.38/0/0.28625/1"
+                        }
+                    ],
+                    "placeLabel": "UTRIKES",
+                    "relatedArticles": [],
+                    "text": "\"Ovanlig blandning\" • \"En av de mest litterära filmer jag sett\"",
+                    "title": "Omtumlande version av en rysk klassiker"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Satir",
+                        "status": "withheld",
+                        "uuid": "593244d8-658a-52a4-8263-89307b331dd9"
+                    },
+                    {
+                        "description": {},
+                        "name": "Diktatur",
+                        "status": "withheld",
+                        "uuid": "fe9fb449-2515-507b-8a05-b00b20aeb258"
+                    }
+                ],
+                "updateDate": "2025-12-11T17:00:03.000Z",
+                "urlPath": "/2025-12-11/omtumlande-version-av-rysk-klassiker-1e173",
+                "uuid": "1e173308-5b02-45d8-af1d-bc2094bcfe64"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "TT",
+                        "uuid": "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Samhälle/Politik]"
+                        },
+                        "name": "Politik",
+                        "uuid": "ba328ac6-72e4-57bb-a91c-8ca42507ec79",
+                        "slug": "politik",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet"
+                ],
+                "conceptUuids": [
+                    "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "ba328ac6-72e4-57bb-a91c-8ca42507ec79",
+                    "006db43c-8a91-5b26-8a38-ad4fe03f9b48",
+                    "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "0a87ee9e-7d58-5739-b596-d4d9314b0880",
+                    "b5445faf-0a59-50d0-9b5c-d63d2b3615e8",
+                    "0bc50d2d-803e-4347-9979-a8b256d4bb85",
+                    "d0e4ccdb-4e5c-5016-a60d-0b2a995b2dde",
+                    "d7d5a35c-a9a5-5342-b352-5910eb64c55f",
+                    "8c89c41b-8d05-5c3b-b535-a8bb6148584f",
+                    "67979c7f-fdcd-57cf-b748-cbb505f7f560",
+                    "d5016d22-6db7-58d1-ae4d-80210f3d6ef9",
+                    "7a776c68-c480-53b4-8cf3-df073df38944",
+                    "95aef7de-2219-5542-9206-9ce81f0473a8",
+                    "ba8e26a7-82b4-5afd-9167-2fd17492e8bd",
+                    "24e3f12d-eec9-5bbb-843f-35953326cbf4",
+                    "cfb64eab-beab-5962-ab0b-d223a424bc92",
+                    "631237bb-c340-5744-8c0e-3de380feeb00",
+                    "50c0350d-ffd3-5a92-becc-92ea51a48735",
+                    "c9961afc-6a89-5579-8e0e-774c9095cd1a",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Zelenskyj: Ingen laglig rätt att ge upp mark",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "filename": "3n_NPAu55ctF60DtAuP1_FDpdzg.jpg",
+                        "height": 683,
+                        "uuid": "8615a375-7055-5fd7-a980-e173b3a854f7",
+                        "width": 1024
+                    },
+                    {
+                        "authors": [],
+                        "filename": "E3bmFAdXpvfZ1ON8O6TJM3w6o_4.jpg",
+                        "height": 683,
+                        "uuid": "87c1cfe9-5193-5e9d-978a-fb593c55de5e",
+                        "width": 1024
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 3,
+                "oldPaths": [
+                    "/2025-12-08/starmer-kommer-inte-pressa-ukraina-a3c94",
+                    "/2025-12-08/merz-skeptisk-till-vissa-delar-av-usas-forslag-a3c94"
+                ],
+                "organisations": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Nato",
+                        "uuid": "67979c7f-fdcd-57cf-b748-cbb505f7f560",
+                        "status": "usable"
+                    }
+                ],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [
+                    {
+                        "contactInfo": {},
+                        "description": {
+                            "short": "Politiker."
+                        },
+                        "name": "Donald Trump",
+                        "uuid": "8c89c41b-8d05-5c3b-b535-a8bb6148584f",
+                        "status": "usable"
+                    }
+                ],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Ukraina",
+                        "uuid": "d5016d22-6db7-58d1-ae4d-80210f3d6ef9",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Jorden",
+                            "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                        }
+                    },
+                    {
+                        "name": "London",
+                        "uuid": "95aef7de-2219-5542-9206-9ce81f0473a8",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Storbritannien",
+                            "uuid": "ba8e26a7-82b4-5afd-9167-2fd17492e8bd",
+                            "broader": {
+                                "name": "Jorden",
+                                "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Florida",
+                        "uuid": "24e3f12d-eec9-5bbb-843f-35953326cbf4",
+                        "status": "usable",
+                        "broader": {
+                            "name": "USA",
+                            "uuid": "cfb64eab-beab-5962-ab0b-d223a424bc92",
+                            "broader": {
+                                "name": "Jorden",
+                                "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Frankrike",
+                        "uuid": "631237bb-c340-5744-8c0e-3de380feeb00",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Jorden",
+                            "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                        }
+                    },
+                    {
+                        "name": "Tyskland",
+                        "uuid": "50c0350d-ffd3-5a92-becc-92ea51a48735",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Jorden",
+                            "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                        }
+                    },
+                    {
+                        "name": "Bryssel",
+                        "uuid": "c9961afc-6a89-5579-8e0e-774c9095cd1a",
+                        "status": "usable"
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Ukrainas president Volodymyr Zelenskyj träffar tunga europeiska ledare i både London och Bryssel på måndagen. Svåra frågor kring territorier och säkerhetsgarantier återstår att lösa inom ramen för fredsförhandlingarna.",
+                "publishDate": "2025-12-08T11:27:08.000Z",
+                "section": {
+                    "name": "Nyheter",
+                    "uuid": "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "slug": "allmant",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "filename": "3n_NPAu55ctF60DtAuP1_FDpdzg.jpg",
+                        "height": 683,
+                        "uuid": "8615a375-7055-5fd7-a980-e173b3a854f7",
+                        "width": 1024
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "UTRIKES",
+                    "relatedArticles": [],
+                    "text": "Ukrainas president Volodymyr Zelenskyj träffar tunga europeiska ledare i både London och Bryssel på måndagen. Svåra frågor kring territorier och säkerhetsgarantier återstår att lösa inom ramen för fredsförhandlingarna.",
+                    "title": "Zelenskyj: Ingen laglig rätt att ge upp mark"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Krig",
+                        "status": "withheld",
+                        "uuid": "0a87ee9e-7d58-5739-b596-d4d9314b0880"
+                    },
+                    {
+                        "description": {},
+                        "name": "Diplomati",
+                        "status": "withheld",
+                        "uuid": "b5445faf-0a59-50d0-9b5c-d63d2b3615e8"
+                    },
+                    {
+                        "description": {},
+                        "name": "Säkerhet",
+                        "status": "withheld",
+                        "uuid": "0bc50d2d-803e-4347-9979-a8b256d4bb85"
+                    },
+                    {
+                        "description": {},
+                        "name": "Politik",
+                        "status": "withheld",
+                        "uuid": "d0e4ccdb-4e5c-5016-a60d-0b2a995b2dde"
+                    },
+                    {
+                        "description": {},
+                        "name": "Internationella relationer",
+                        "status": "usable",
+                        "uuid": "d7d5a35c-a9a5-5342-b352-5910eb64c55f"
+                    }
+                ],
+                "updateDate": "2025-12-08T19:29:43.000Z",
+                "urlPath": "/2025-12-08/zelenskyj-ingen-laglig-ratt-att-ge-upp-mark-a3c94",
+                "uuid": "a3c94d06-9f26-5a8c-a262-f5532e9aa64e"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Karin Engman",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Familj och relationer]"
+                        },
+                        "name": "Familj och relationer",
+                        "uuid": "b2e6b8e9-cecc-501b-aded-8b67dbb76a28",
+                        "slug": "familjeliv",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "xFacebook",
+                    "xInstagram",
+                    "xPusha",
+                    "xWebbtopp"
+                ],
+                "conceptUuids": [
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "05e74478-244b-4c22-a2f9-541f2e0bb028",
+                    "b2e6b8e9-cecc-501b-aded-8b67dbb76a28",
+                    "5e0e851b-ab6c-4f2b-8dec-ac21b658605f",
+                    "00000000-0000-0000-0000-000000000000",
+                    "8601678d-8c5d-4735-a889-71702f2d1e32",
+                    "04613522-0e79-490d-a8bb-1e44a4105935",
+                    "667efee0-f11d-4aab-9a38-1e7a7eec40f6",
+                    "80bd9c48-d7a4-48c9-8d11-68011bdefdcf",
+                    "4193bc6e-bc66-5ade-adfe-1d14c1e81d90",
+                    "0566727f-5278-54c9-ae59-86a6b19a09ec",
+                    "23bf6f54-ca2f-5158-bc8e-7b2a6213e3eb",
+                    "85abc341-ac52-5bc7-85a7-aff0d40e05e8",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "3d21e416-98d7-4777-8276-50f990388019",
+                    "1d079550-ab5a-51fc-81d2-4b6338efe728",
+                    "505fc6e3-4569-4ca9-8e19-29ef1d736f6b",
+                    "b94325ef-33f9-4c90-8e03-a2cf0243950c",
+                    "bac8947d-6929-447f-bec2-ffa8e1f4f23b"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Vardagshjältarna som får hela skolan att glänsa",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Abebe Asres"
+                        ],
+                        "caption": "Vardagshjältar köket och städet Ersdungens skola. Fv- Linda Westin, Ingela Niskanen, Tove Norrby, Nipa Srimoonlad, Maria Åström, Anneli Hortell, Johanna Bark, Miranda Imeri.",
+                        "filename": "FeIjh6_eCnaBHigZqucNBjpIKyY.jpg",
+                        "height": 3662,
+                        "uuid": "692b4f57-d52f-549d-b74a-5cf072ee4762",
+                        "width": 5023
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 5,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "premium",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [
+                    {
+                        "contactInfo": {
+                            "email": "abebe.asres@vk.se",
+                            "phone": "090-175961"
+                        },
+                        "description": {
+                            "short": "abebe.asres@vk.se"
+                        },
+                        "image": {
+                            "authors": [
+                                "Per Landfors"
+                            ],
+                            "caption": "Abebe Asres, fotograf frilagd",
+                            "filename": "E6PASgGuvlKkBhovet5YrLxclG4.png",
+                            "height": 2177,
+                            "uuid": "f72611d3-c4e1-51ae-b614-dd8e135f7b56",
+                            "width": 3189
+                        },
+                        "name": "Abebe Asres",
+                        "uuid": "85abc341-ac52-5bc7-85a7-aff0d40e05e8",
+                        "status": "usable",
+                        "signature": "",
+                        "note": "#A88A6B"
+                    }
+                ],
+                "places": [],
+                "podcasts": [],
+                "preamble": "Personalen i köket och städet på Ersdungens skola ställer upp i alla väder för lärare och elever. De fixar allt med ett leende och gör allt för att både barn och vuxna ska trivas i skolan. I dag utses de till veckans vardagshjältar.",
+                "publishDate": "2025-12-01T08:55:02.000Z",
+                "section": {
+                    "name": "Familj",
+                    "uuid": "05e74478-244b-4c22-a2f9-541f2e0bb028",
+                    "slug": "familj",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": true,
+                "summary": "<ul><li>Personal i köket och städet på Ersdungens skola uppmärksammas som veckans vardagshjältar.</li><li>De strävar efter att skapa en trivsam miljö för både elever och lärare.</li><li>Det finns utmaningar med skollokalerna, som begränsar deras arbetsmöjligheter.</li><li>Julbordet i köket ses som en höjdpunkt och något de ser fram emot.</li></ul>",
+                "teaser": {
+                    "entryWord": "Personalen hyllas:",
+                    "image": {
+                        "authors": [
+                            "Abebe Asres"
+                        ],
+                        "caption": "Vardagshjältar köket och städet Ersdungens skola. Fv- Linda Westin, Ingela Niskanen, Tove Norrby, Nipa Srimoonlad, Maria Åström, Anneli Hortell, Johanna Bark, Miranda Imeri.",
+                        "filename": "FeIjh6_eCnaBHigZqucNBjpIKyY.jpg",
+                        "height": 3662,
+                        "uuid": "692b4f57-d52f-549d-b74a-5cf072ee4762",
+                        "width": 5023
+                    },
+                    "imageCrops": [],
+                    "label": "Umeå",
+                    "relatedArticles": [],
+                    "streamer": "VARDAGSHJÄLTEN",
+                    "text": "Fixar maten och städet med ett leende – nu utses de till vardagshjältar. ",
+                    "title": "De får hela skolan att glänsa"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Skola",
+                        "status": "withheld",
+                        "uuid": "80bd9c48-d7a4-48c9-8d11-68011bdefdcf"
+                    },
+                    {
+                        "description": {},
+                        "name": "Livsstil",
+                        "status": "withheld",
+                        "uuid": "4193bc6e-bc66-5ade-adfe-1d14c1e81d90"
+                    },
+                    {
+                        "description": {},
+                        "name": "Mat",
+                        "status": "withheld",
+                        "uuid": "0566727f-5278-54c9-ae59-86a6b19a09ec"
+                    },
+                    {
+                        "description": {},
+                        "name": "Arbetsmarknad",
+                        "status": "withheld",
+                        "uuid": "23bf6f54-ca2f-5158-bc8e-7b2a6213e3eb"
+                    },
+                    {
+                        "description": {},
+                        "name": "Skolbarnslivet",
+                        "status": "withheld",
+                        "uuid": "3d21e416-98d7-4777-8276-50f990388019"
+                    },
+                    {
+                        "description": {},
+                        "name": "Familj",
+                        "status": "withheld",
+                        "uuid": "1d079550-ab5a-51fc-81d2-4b6338efe728"
+                    },
+                    {
+                        "description": {},
+                        "name": "Familjelivssajten",
+                        "status": "withheld",
+                        "uuid": "505fc6e3-4569-4ca9-8e19-29ef1d736f6b"
+                    }
+                ],
+                "updateDate": "2025-12-02T20:59:30.000Z",
+                "urlPath": "/2025-12-01/vardagshjaltarna-som-far-hela-skolan-att-glansa-bb2c4",
+                "uuid": "bb2c4374-5809-4a53-8580-82df27a48c3e"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "TT",
+                        "uuid": "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Livsstil & Familj/Sällskapsdjur]"
+                        },
+                        "name": "Sällskapsdjur",
+                        "uuid": "c1680332-832b-50bb-9583-009305bbda33",
+                        "slug": "sallskapsdjur",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet"
+                ],
+                "conceptUuids": [
+                    "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "c1680332-832b-50bb-9583-009305bbda33",
+                    "c1bca6d4-ce53-5b0b-ad77-79fcd4936a74",
+                    "f264d6b7-12fa-4caf-abde-86f8185c7252",
+                    "79b3ec11-c78a-52db-b044-d03817c56a64",
+                    "a7a1e01e-3892-5b57-8cbe-5bf99e2e0af7",
+                    "1be9e8f7-b11e-53ce-b54b-c080d602c1f2",
+                    "84941111-bb5a-5aa5-ad0b-eb8f1c51e43d",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Pussel och kattmynta på djurens julafton",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "filename": "UssimGfzufSWdV6SxWCgnfJXOxE.jpg",
+                        "height": 683,
+                        "uuid": "4050f1af-7147-5af1-b0df-bbdebd744b2f",
+                        "width": 1024
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 2,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [],
+                "podcasts": [],
+                "preamble": "Tomten kommer inte bara till snälla barn utan även till valpar, marsvin och leguaner. Enligt branschen ökar försäljningen av julklappar till djur. Och den som vill lägga tassarna på en adventskalender får inte vara ute i sista minuten.",
+                "publishDate": "2025-11-29T05:30:20.000Z",
+                "section": {
+                    "name": "Nöje",
+                    "uuid": "f264d6b7-12fa-4caf-abde-86f8185c7252",
+                    "slug": "noje",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "filename": "UssimGfzufSWdV6SxWCgnfJXOxE.jpg",
+                        "height": 683,
+                        "uuid": "4050f1af-7147-5af1-b0df-bbdebd744b2f",
+                        "width": 1024
+                    },
+                    "imageCrops": [],
+                    "relatedArticles": [],
+                    "text": "Tomten kommer inte bara till snälla barn utan även till valpar, marsvin och leguaner. Enligt branschen ökar försäljningen av julklappar till djur. Och den som vill lägga tassarna på en adventskalender får inte vara ute i sista minuten.",
+                    "title": "Pussel och kattmynta på djurens julafton"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Husdjur",
+                        "status": "withheld",
+                        "uuid": "79b3ec11-c78a-52db-b044-d03817c56a64"
+                    },
+                    {
+                        "description": {},
+                        "name": "Restauranger",
+                        "status": "withheld",
+                        "uuid": "a7a1e01e-3892-5b57-8cbe-5bf99e2e0af7"
+                    },
+                    {
+                        "description": {},
+                        "name": "Jul",
+                        "status": "withheld",
+                        "uuid": "1be9e8f7-b11e-53ce-b54b-c080d602c1f2"
+                    },
+                    {
+                        "description": {},
+                        "name": "Konsument",
+                        "status": "withheld",
+                        "uuid": "84941111-bb5a-5aa5-ad0b-eb8f1c51e43d"
+                    }
+                ],
+                "updateDate": "2025-11-29T05:30:43.000Z",
+                "urlPath": "/2025-11-29/pussel-och-kattmynta-pa-djurens-julafton-7ab03",
+                "uuid": "7ab03431-ec21-5e95-b5e9-32783c99ea8f"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "TT",
+                        "uuid": "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Olyckor, katastrofer och tillbud/Katastrofer]"
+                        },
+                        "name": "Katastrofer",
+                        "uuid": "ed4d30b3-d452-5cb4-87a1-479cd243dd15",
+                        "slug": "katastrofer",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet"
+                ],
+                "conceptUuids": [
+                    "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "ed4d30b3-d452-5cb4-87a1-479cd243dd15",
+                    "df6b5cfd-0b85-5665-ba54-88bbe6bb1c68",
+                    "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "0301a3ae-a00b-535b-bb25-2d45865dad57",
+                    "7ffa24c6-acdf-5ed5-a613-956637a285cd",
+                    "8d74fdf9-88ff-5020-ac62-9ec7706bd9ea",
+                    "05504e74-f569-55cd-a47b-3002371247ff",
+                    "a6c980d1-01c5-5eb0-a32a-852696ce57e3",
+                    "77179feb-8117-5622-9f96-8d2bf7b5af0d",
+                    "7a776c68-c480-53b4-8cf3-df073df38944",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Katastrofala regn i Sydostasien – hundratals döda",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "filename": "CRTcHn7WSkmz7M_etz7qVo9gMP8.jpg",
+                        "height": 683,
+                        "uuid": "185377dd-5b3e-56e0-965b-0c0d3a8a6742",
+                        "width": 1024
+                    },
+                    {
+                        "authors": [],
+                        "filename": "r_Tujr205PVzZFAK1sUkDt7tF3Q.jpg",
+                        "height": 683,
+                        "uuid": "22ca16e5-121d-55ab-a736-3524947ac4bc",
+                        "width": 1024
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 1,
+                "oldPaths": [
+                    "/2025-11-28/dodssiffran-stiger-i-indonesien-adc9e"
+                ],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Indonesien",
+                        "uuid": "77179feb-8117-5622-9f96-8d2bf7b5af0d",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Jorden",
+                            "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Extrema monsunregn har orsakat brutala översvämningar i Thailand, Malaysia och Indonesien. Antalet döda är nu uppe i över 300, och fortsätter att stiga.",
+                "publishDate": "2025-11-28T04:01:35.000Z",
+                "section": {
+                    "name": "Nyheter",
+                    "uuid": "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "slug": "allmant",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "filename": "CRTcHn7WSkmz7M_etz7qVo9gMP8.jpg",
+                        "height": 683,
+                        "uuid": "185377dd-5b3e-56e0-965b-0c0d3a8a6742",
+                        "width": 1024
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "UTRIKES",
+                    "relatedArticles": [],
+                    "text": "Extrema monsunregn har orsakat brutala översvämningar i Thailand, Malaysia och Indonesien. Antalet döda är nu uppe i över 300, och fortsätter att stiga.",
+                    "title": "Katastrofala regn i Sydostasien – hundratals döda"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Katastrofer",
+                        "status": "withheld",
+                        "uuid": "0301a3ae-a00b-535b-bb25-2d45865dad57"
+                    },
+                    {
+                        "description": {},
+                        "name": "Jordskred",
+                        "status": "withheld",
+                        "uuid": "7ffa24c6-acdf-5ed5-a613-956637a285cd"
+                    },
+                    {
+                        "description": {},
+                        "name": "Översvämningar",
+                        "status": "withheld",
+                        "uuid": "8d74fdf9-88ff-5020-ac62-9ec7706bd9ea"
+                    },
+                    {
+                        "description": {},
+                        "name": "Väder",
+                        "status": "withheld",
+                        "uuid": "05504e74-f569-55cd-a47b-3002371247ff"
+                    },
+                    {
+                        "description": {},
+                        "name": "Miljö och klimat",
+                        "status": "withheld",
+                        "uuid": "a6c980d1-01c5-5eb0-a32a-852696ce57e3"
+                    }
+                ],
+                "updateDate": "2025-11-28T11:37:42.000Z",
+                "urlPath": "/2025-11-28/katastrofala-regn-i-sydostasien-hundratals-doda-adc9e",
+                "uuid": "adc9ef39-468d-5bed-86fd-dc41eeebde8a"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "ledare@vk.se",
+                            "phone": "090-176000"
+                        },
+                        "description": {},
+                        "image": {
+                            "authors": [],
+                            "caption": "Malin Lernfelt\n",
+                            "filename": "8i3oypnyOROqNGt9bdTgWd2S738.png",
+                            "height": 2000,
+                            "uuid": "a36256a8-2878-58fa-b058-8c4e3b7a2c63",
+                            "width": 3000
+                        },
+                        "name": "Malin Lernfelt",
+                        "uuid": "49ea2361-dffc-4232-8f8a-96f1de62641e",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Livsstil & Familj/Sällskapsdjur]"
+                        },
+                        "name": "Sällskapsdjur",
+                        "uuid": "c1680332-832b-50bb-9583-009305bbda33",
+                        "slug": "sallskapsdjur",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK"
+                ],
+                "conceptUuids": [
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "49ea2361-dffc-4232-8f8a-96f1de62641e",
+                    "b0df62b2-b168-42d5-88ff-111c263dcfc9",
+                    "c1680332-832b-50bb-9583-009305bbda33",
+                    "c1bca6d4-ce53-5b0b-ad77-79fcd4936a74",
+                    "79b3ec11-c78a-52db-b044-d03817c56a64",
+                    "168df550-5284-5592-812b-1b8e02a1fd93",
+                    "0101b1f6-3384-4f1f-b156-3f91d1cc942b",
+                    "0f259e07-0dee-4156-9332-610e632f5bb3",
+                    "f9cfd491-3e9c-4ee9-9e82-68c18d413380"
+                ],
+                "contentProfile": {
+                    "name": "Krönika",
+                    "uuid": "0101b1f6-3384-4f1f-b156-3f91d1cc942b"
+                },
+                "headline": "Malin Lernfelt: Veterinärkostnader skenar på ett orimligt sätt",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Gorm Kallestad"
+                        ],
+                        "caption": "Trondheim 20200409. \nUnge som koser med katt i denne koronapåsken. Modellklarert\nFoto: Gorm Kallestad / NTB scanpix / TT / kod  20520",
+                        "filename": "PnRT11bu-ZmRhlpzw1yYf74MSPI.jpg",
+                        "height": 3855,
+                        "uuid": "75e2860b-db29-532a-8b56-1bd82183a860",
+                        "width": 5561
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 3,
+                "oldPaths": [
+                    "/2025-11-20/malin-lernfelt-veterinarkostnader-skenar-pa-ett-orimligt-satt-4fc9e",
+                    "/2025-11-23/malin-lernfelt-veterinarkostnader-skenar-pa-ett-orimligt-satt-4fc9e",
+                    "/2025-11-22/malin-lernfelt-veterinarkostnader-skenar-pa-ett-orimligt-satt-4fc9e"
+                ],
+                "organisations": [],
+                "paywall": "free",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [],
+                "podcasts": [],
+                "preamble": "Om vanliga löntagare i framtiden ska ha råd att ha husdjur måste djursjukvården regleras, skriver Malin Lernfelt.",
+                "publishDate": "2025-11-23T06:30:00.000Z",
+                "section": {
+                    "name": "Opinion",
+                    "uuid": "b0df62b2-b168-42d5-88ff-111c263dcfc9",
+                    "slug": "asikter",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [
+                            "Gorm Kallestad"
+                        ],
+                        "caption": "Trondheim 20200409. \nUnge som koser med katt i denne koronapåsken. Modellklarert\nFoto: Gorm Kallestad / NTB scanpix / TT / kod  20520",
+                        "filename": "PnRT11bu-ZmRhlpzw1yYf74MSPI.jpg",
+                        "height": 3855,
+                        "uuid": "75e2860b-db29-532a-8b56-1bd82183a860",
+                        "width": 5561
+                    },
+                    "imageCrops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.0918918918918919/1/0.8108108108108109"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.0375/0/0.925/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.15375/0/0.69375/1"
+                        },
+                        {
+                            "title": "9:16",
+                            "crop": "0.305/0/0.39/1"
+                        }
+                    ],
+                    "relatedArticles": [],
+                    "text": "Om vanliga löntagare i framtiden ska ha råd att ha husdjur måste djursjukvården regleras, skriver Malin Lernfelt.",
+                    "title": "”Veterinärkostnader skenar på ett orimligt sätt”"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Husdjur",
+                        "status": "withheld",
+                        "uuid": "79b3ec11-c78a-52db-b044-d03817c56a64"
+                    },
+                    {
+                        "description": {},
+                        "name": "Djurvård",
+                        "status": "withheld",
+                        "uuid": "168df550-5284-5592-812b-1b8e02a1fd93"
+                    }
+                ],
+                "updateDate": "2025-11-23T06:30:03.000Z",
+                "urlPath": "/2025-11-23/malin-lernfelt-veterinarkostnader-skenar-pa-ett-orimligt-satt-4fc9e",
+                "uuid": "4fc9e43c-16c8-457d-9871-ed98a0c43b84"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "jesper.nilsson@vk.se",
+                            "phone": "072-7293423"
+                        },
+                        "description": {
+                            "short": "Affärslivsreporter"
+                        },
+                        "image": {
+                            "authors": [],
+                            "caption": "Jesper Nilsson frilagd",
+                            "filename": "QYykpzB0BP8Z5rRnXwrFZBAI-gc.png",
+                            "height": 2733,
+                            "uuid": "09c1008c-888b-58bc-a461-688f737c8790",
+                            "width": 1917
+                        },
+                        "name": "Jesper Nilsson",
+                        "uuid": "4650a23a-8e61-4d95-b9ac-f006382e59c6",
+                        "status": "usable",
+                        "signature": "",
+                        "note": "#5A1239"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "Etablering och/eller konstaterande av samhällets regler, dessa reglers genomförande, brott mot reglerna och bestraffning av förbrytarna. Organisationer och myndigheter inblandade i dessa aktiviteter. Brott, domstolsväsende, polis, straff, fängelse."
+                        },
+                        "name": "Brott, lag och rätt",
+                        "uuid": "1cd0efff-e144-5470-a604-47e670b6b6d7",
+                        "slug": "brott-lag-och-ratt",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "xFacebook",
+                    "xInstagram",
+                    "xPusha",
+                    "xWebbtopp"
+                ],
+                "conceptUuids": [
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "80065e9e-1950-472e-bea6-d464e7d60a7a",
+                    "4650a23a-8e61-4d95-b9ac-f006382e59c6",
+                    "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "1cd0efff-e144-5470-a604-47e670b6b6d7",
+                    "6f9b5ef5-4ec1-55e4-9db8-a46efd77d377",
+                    "6097ae96-9ff7-5592-8aac-c4752ac904a5",
+                    "fd2fb002-e642-52aa-9242-ec1fbf0198fc",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "8601678d-8c5d-4735-a889-71702f2d1e32",
+                    "04613522-0e79-490d-a8bb-1e44a4105935",
+                    "667efee0-f11d-4aab-9a38-1e7a7eec40f6",
+                    "1d6651f4-ea3c-5c4f-93b0-3bd0daec3db8",
+                    "bac8947d-6929-447f-bec2-ffa8e1f4f23b",
+                    "f9cfd491-3e9c-4ee9-9e82-68c18d413380",
+                    "9340092a-1dc7-432d-b8ca-01fbf4444f1b"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Sköt ren och plockade ut hjärtat – greps av ledig polis",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Polisen"
+                        ],
+                        "caption": "renskytt",
+                        "filename": "RoFQZ5igMgY1u7rrLCuIX25yD4A.jpg",
+                        "height": 1080,
+                        "uuid": "919008e9-49ff-5193-bbec-82ef0bb39d8e",
+                        "width": 1920
+                    },
+                    {
+                        "authors": [
+                            "Polisen"
+                        ],
+                        "caption": "renhjärta",
+                        "filename": "LnLkWVxvaTgOwrvRlVKreV-U_-M.png",
+                        "height": 574,
+                        "uuid": "ecfd5d29-cc47-597c-9fec-9a32b4472229",
+                        "width": 778
+                    },
+                    {
+                        "authors": [
+                            "polisen"
+                        ],
+                        "caption": "ren",
+                        "filename": "BDNQryFYqRo0NaW-ojtTSYffZ00.png",
+                        "height": 609,
+                        "uuid": "11650ff2-dd92-50a3-b511-a9aee081f563",
+                        "width": 701
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 4,
+                "oldPaths": [
+                    "/2025-11-09/skot-ren-och-plockade-ut-hjartat-greps-av-ledig-polis-c632b",
+                    "/2025-11-08/skot-ren-och-plockade-ut-hjartat-greps-av-ledig-polis-c632b"
+                ],
+                "organisations": [],
+                "paywall": "premium",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [],
+                "podcasts": [],
+                "preamble": "Två män i 30-årsåldern boende i en inlandskommun misstänks för stöld efter att ha skjutit ihjäl och slaktat en ren. Männen upptäcktes, av en ledig på polis som var ute i skogen för avliva en katt, när de försökte ta ur renens innanmäte ute i skogen.",
+                "publishDate": "2025-11-06T20:00:00.000Z",
+                "section": {
+                    "name": "Nyheter",
+                    "uuid": "3bcf2109-fef0-4240-950f-11562f20d9b1",
+                    "slug": "allmant",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": true,
+                "summary": "<ul><li>Två män i 30-årsåldern misstänks för stöld efter att ha skjutet och slaktat en ren.</li><li>De blev upptäckta av en ledig polis som skulle avliva en katt.</li><li>Männen erkände att de planerade att stycka renu och dela köttet.</li><li>Renägaren kräver 11 500 kronor och rättegången äger rum i mitten av november.</li></ul>",
+                "teaser": {
+                    "image": {
+                        "authors": [
+                            "Polisen"
+                        ],
+                        "caption": "renskytt",
+                        "filename": "RoFQZ5igMgY1u7rrLCuIX25yD4A.jpg",
+                        "height": 1080,
+                        "uuid": "919008e9-49ff-5193-bbec-82ef0bb39d8e",
+                        "width": 1920
+                    },
+                    "imageCrops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0/1/1"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.125/0/0.75/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.21875/0/0.5625/1"
+                        },
+                        {
+                            "title": "9:16",
+                            "crop": "0.3425/0/0.31625/1"
+                        }
+                    ],
+                    "label": "LOKALT ",
+                    "relatedArticles": [],
+                    "text": "Barndomsvänner åtalas • \"Det riktiga straffet är det sociala efter detta\"",
+                    "title": "Sköt ren och plockade ut hjärtat – greps av ledig polis"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Brott",
+                        "status": "withheld",
+                        "uuid": "6f9b5ef5-4ec1-55e4-9db8-a46efd77d377"
+                    },
+                    {
+                        "description": {},
+                        "name": "Jakt",
+                        "status": "withheld",
+                        "uuid": "6097ae96-9ff7-5592-8aac-c4752ac904a5"
+                    },
+                    {
+                        "description": {},
+                        "name": "Rättegångar",
+                        "status": "withheld",
+                        "uuid": "fd2fb002-e642-52aa-9242-ec1fbf0198fc"
+                    },
+                    {
+                        "description": {},
+                        "name": "Rennäring",
+                        "status": "usable",
+                        "uuid": "1d6651f4-ea3c-5c4f-93b0-3bd0daec3db8"
+                    }
+                ],
+                "updateDate": "2025-11-07T07:42:07.000Z",
+                "urlPath": "/2025-11-06/skot-ren-och-plockade-ut-hjartat-greps-av-ledig-polis-c632b",
+                "uuid": "c632bd75-4cb5-4d0a-abee-c969177b1a35"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "redaktion@vk.se"
+                        },
+                        "description": {},
+                        "name": "United Robots",
+                        "uuid": "b70c2b6b-92b6-593b-8ad2-2298077a581b",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {},
+                        "name": "Ekonomi och näringsliv",
+                        "uuid": "c9583b91-8779-5fbd-8999-3ed16a8a1e0b",
+                        "slug": "ekonomi-och-naringsliv",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "Folkbladet",
+                    "VK"
+                ],
+                "conceptUuids": [
+                    "b70c2b6b-92b6-593b-8ad2-2298077a581b",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "b42ef3f7-7983-4f29-8e53-7f735f57109b",
+                    "c9583b91-8779-5fbd-8999-3ed16a8a1e0b",
+                    "8af7e303-d390-40c9-b0cb-0666bd4670de",
+                    "2648d63e-10d9-511c-af3f-1d45494232ec",
+                    "218772e3-5669-5540-b912-d658e8bdc916",
+                    "9ca3939d-e258-5c19-8733-0e6c70dca48a",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "LISTA: Här är månadens nystartade företag i Vindeln",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Jessica Gow / TT"
+                        ],
+                        "caption": "STOCKHOLM 20080808\nEn kvinna skriver under ett kontrakt\nFoto: Jessica Gow / SCANPIX / kod 10070",
+                        "filename": "jY9CFu6rT-wTWGOSeaDb60b2-eg.jpg",
+                        "height": 2754,
+                        "uuid": "dbbd068d-5e40-5a58-80b3-0b175a2f9a61",
+                        "width": 4137
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 1,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Vindeln kommun",
+                        "uuid": "2648d63e-10d9-511c-af3f-1d45494232ec",
+                        "status": "usable"
+                    },
+                    {
+                        "name": "Västerbottens län",
+                        "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Sverige",
+                            "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Vill du veta om nya företag i din kommun? Här har vi samlat information om näringslivsnyheter från månaden som gått.",
+                "publishDate": "2025-11-05T12:01:40.000Z",
+                "section": {
+                    "name": "Affärsliv24",
+                    "uuid": "b42ef3f7-7983-4f29-8e53-7f735f57109b",
+                    "slug": "affarsliv24",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [
+                            "Jessica Gow / TT"
+                        ],
+                        "caption": "STOCKHOLM 20080808\nEn kvinna skriver under ett kontrakt\nFoto: Jessica Gow / SCANPIX / kod 10070",
+                        "filename": "jY9CFu6rT-wTWGOSeaDb60b2-eg.jpg",
+                        "height": 2754,
+                        "uuid": "dbbd068d-5e40-5a58-80b3-0b175a2f9a61",
+                        "width": 4137
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "VINDELN",
+                    "relatedArticles": [],
+                    "text": "Vill du veta om nya företag i din kommun? Här har vi samlat information om näringslivsnyheter från månaden som gått.",
+                    "title": "LISTA: Här är månadens nystartade företag i Vindeln"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Bolagsnytt",
+                        "status": "usable",
+                        "uuid": "8af7e303-d390-40c9-b0cb-0666bd4670de"
+                    }
+                ],
+                "updateDate": "2025-11-05T12:01:58.000Z",
+                "urlPath": "/2025-11-05/lista-har-ar-manadens-nystartade-foretag-i-vindeln-7bf06",
+                "uuid": "7bf0630b-dfa6-5c48-ad9f-cc4cd6ce7326"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "TT",
+                        "uuid": "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Kultur och nöje/TV och film]"
+                        },
+                        "name": "TV och film",
+                        "uuid": "b1487071-08db-5ecb-a14b-01eae9e651e7",
+                        "slug": "tv-och-film",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "Folkbladet"
+                ],
+                "conceptUuids": [
+                    "a84ec159-9ec6-49e3-8ff7-5e55d64244a2",
+                    "b1487071-08db-5ecb-a14b-01eae9e651e7",
+                    "90accced-3aec-5656-a295-7ef17baf6305",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "0463ee71-572f-5185-bedc-62306d7c7ca8",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Då kommer Hello Kitty-filmen",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "filename": "OIC-biyFBjqGISvY2CwkwXquO0w.jpg",
+                        "height": 683,
+                        "uuid": "4222f474-5d02-54fb-92d8-00a7f80cce97",
+                        "width": 1024
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 1,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [],
+                "podcasts": [],
+                "preamble": "Nu står det klart att långfilmen ”Hello Kitty” får sin biopremiär sommaren 2028, enligt Variety.",
+                "publishDate": "2025-10-30T07:42:36.000Z",
+                "section": {
+                    "name": "Kultur",
+                    "uuid": "a84ec159-9ec6-49e3-8ff7-5e55d64244a2",
+                    "slug": "kultur",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "filename": "OIC-biyFBjqGISvY2CwkwXquO0w.jpg",
+                        "height": 683,
+                        "uuid": "4222f474-5d02-54fb-92d8-00a7f80cce97",
+                        "width": 1024
+                    },
+                    "imageCrops": [],
+                    "relatedArticles": [],
+                    "text": "Nu står det klart att långfilmen ”Hello Kitty” får sin biopremiär sommaren 2028, enligt Variety.",
+                    "title": "Då kommer Hello Kitty-filmen"
+                },
+                "topics": [],
+                "updateDate": "2025-10-30T07:42:54.000Z",
+                "urlPath": "/2025-10-30/da-kommer-hello-kitty-filmen-c7c02",
+                "uuid": "c7c02aed-804b-558d-a000-dc0ed3828409"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "redaktion@vk.se"
+                        },
+                        "description": {
+                            "short": "redaktion@vk.se"
+                        },
+                        "image": {
+                            "authors": [],
+                            "caption": "VK logo",
+                            "filename": "tiT3OgpXipp5iktvFl3hxZUlbPs.png",
+                            "height": 1080,
+                            "uuid": "f9e92b6e-6e55-5f92-85f9-8a25055327f5",
+                            "width": 1920
+                        },
+                        "name": "Västerbottens-Kuriren",
+                        "uuid": "05321621-24ab-5e66-9740-959e7d5195c9",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Kultur och nöje/Kultur]"
+                        },
+                        "name": "Kultur",
+                        "uuid": "15f339e5-650b-5108-919e-e24b53a2b2c0",
+                        "slug": "kultur",
+                        "children": [],
+                        "status": "usable"
+                    },
+                    {
+                        "description": {
+                            "short": "[Kultur och nöje/Litteratur]"
+                        },
+                        "name": "Litteratur",
+                        "uuid": "d02fdfbd-54a6-5be9-b8de-7e75f4036076",
+                        "slug": "litteratur",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK"
+                ],
+                "conceptUuids": [
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "15f339e5-650b-5108-919e-e24b53a2b2c0",
+                    "90accced-3aec-5656-a295-7ef17baf6305",
+                    "a84ec159-9ec6-49e3-8ff7-5e55d64244a2",
+                    "05321621-24ab-5e66-9740-959e7d5195c9",
+                    "a1b7dd4a-3dcb-56ec-a367-b9fd74b57017",
+                    "8d1510d1-8089-5392-b79f-78b3ebc842bc",
+                    "0a87ee9e-7d58-5739-b596-d4d9314b0880",
+                    "125d1461-4a0c-5d41-97bb-41e78af61e6f",
+                    "d02fdfbd-54a6-5be9-b8de-7e75f4036076",
+                    "fce8f03e-c086-5940-99d5-c1ceb72caa10",
+                    "cfb64eab-beab-5962-ab0b-d223a424bc92",
+                    "7a776c68-c480-53b4-8cf3-df073df38944",
+                    "0a72e540-1a3e-47bd-bc3f-e544cafc9101",
+                    "52b0a93f-afa0-496d-a5e5-c57cfe0d5d6d"
+                ],
+                "contentProfile": {
+                    "name": "Recension",
+                    "uuid": "0a72e540-1a3e-47bd-bc3f-e544cafc9101"
+                },
+                "headline": "Största behållningen är att naturen får vara hotfull",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "caption": "c",
+                        "filename": "W9LK2fCRZBYJkLQ1bRkIsNsV9QY.jpg",
+                        "height": 409,
+                        "uuid": "bd39dee5-b74a-5e82-bd51-5cf4ca97f818",
+                        "width": 272
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 2,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Kalifornien",
+                        "uuid": "fce8f03e-c086-5940-99d5-c1ceb72caa10",
+                        "status": "usable",
+                        "broader": {
+                            "name": "USA",
+                            "uuid": "cfb64eab-beab-5962-ab0b-d223a424bc92",
+                            "broader": {
+                                "name": "Jorden",
+                                "uuid": "7a776c68-c480-53b4-8cf3-df073df38944"
+                            }
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Ida Nordung har läst Carina Bergströms nya diktsamling och finner en brinnande spegel av vreden inför världsläget.",
+                "publishDate": "2025-10-23T11:42:03.000Z",
+                "section": {
+                    "name": "Kultur",
+                    "uuid": "a84ec159-9ec6-49e3-8ff7-5e55d64244a2",
+                    "slug": "kultur",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "caption": "c",
+                        "filename": "W9LK2fCRZBYJkLQ1bRkIsNsV9QY.jpg",
+                        "height": 409,
+                        "uuid": "bd39dee5-b74a-5e82-bd51-5cf4ca97f818",
+                        "width": 272
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "UTRIKES",
+                    "relatedArticles": [],
+                    "text": "Ida Nordung har läst Carina Bergströms nya diktsamling och finner en brinnande spegel av vreden inför världsläget.",
+                    "title": "Största behållningen är att naturen får vara hotfull"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Natur",
+                        "status": "withheld",
+                        "uuid": "a1b7dd4a-3dcb-56ec-a367-b9fd74b57017"
+                    },
+                    {
+                        "description": {
+                            "long": "Poesi är konsten att skriva poem. Det är litterära verk avsedda att läsas eller reciteras. Poesi kallas också skaldekonst, lyrik, dikt och vers eller – föråldrat – att kväda (kväden). Ursprungligen syftade det på all fiktionslitteratur, men redan tidigt skedde en uppdelning i poesi och prosa.",
+                            "short": "Poesi är konsten att skriva poem."
+                        },
+                        "name": "Poesi",
+                        "status": "withheld",
+                        "uuid": "8d1510d1-8089-5392-b79f-78b3ebc842bc"
+                    },
+                    {
+                        "description": {},
+                        "name": "Krig",
+                        "status": "withheld",
+                        "uuid": "0a87ee9e-7d58-5739-b596-d4d9314b0880"
+                    },
+                    {
+                        "description": {},
+                        "name": "Böcker",
+                        "status": "withheld",
+                        "uuid": "125d1461-4a0c-5d41-97bb-41e78af61e6f"
+                    }
+                ],
+                "updateDate": "2025-10-23T11:42:13.000Z",
+                "urlPath": "/2025-10-23/storsta-behallningen-ar-att-naturen-far-vara-hotfull-7bb4d",
+                "uuid": "7bb4d109-5c0a-4d53-84bd-4257757309c0"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "familje@vk.se"
+                        },
+                        "description": {},
+                        "name": "Familjeredaktionen",
+                        "uuid": "5a7d5694-8118-4111-9621-51958f89bffb",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {
+                            "short": "[Familj och relationer]"
+                        },
+                        "name": "Familj och relationer",
+                        "uuid": "b2e6b8e9-cecc-501b-aded-8b67dbb76a28",
+                        "slug": "familjeliv",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "VK",
+                    "xFacebook",
+                    "xInstagram",
+                    "xPusha"
+                ],
+                "conceptUuids": [
+                    "640ad237-4687-49c1-a6e1-639128dea6c3",
+                    "5a7d5694-8118-4111-9621-51958f89bffb",
+                    "05e74478-244b-4c22-a2f9-541f2e0bb028",
+                    "b2e6b8e9-cecc-501b-aded-8b67dbb76a28",
+                    "aa69b24f-112e-460c-89e4-964ef61f3558",
+                    "1ef74827-4e0e-5bce-8c96-9f6d46b389d5",
+                    "1d079550-ab5a-51fc-81d2-4b6338efe728",
+                    "d56d39e5-d08c-5cfe-b422-6442bd36e4fa",
+                    "79b3ec11-c78a-52db-b044-d03817c56a64",
+                    "e6cd9224-4df1-5024-8ba6-b2ad059a124b",
+                    "91614b47-08ab-5506-bb70-a67ae13f8667",
+                    "a6c9c028-8ce1-5bc9-a99a-97c46d9c40fe",
+                    "218772e3-5669-5540-b912-d658e8bdc916",
+                    "9ca3939d-e258-5c19-8733-0e6c70dca48a",
+                    "da9b0b19-82f9-506c-bd6d-861b0824099c",
+                    "9ca4d507-4003-5b52-bba2-a6e17c613a9b",
+                    "6d5d42e5-2de6-519c-9277-5a13bad0fee4",
+                    "9750748b-210b-5912-ae3a-3e083184f101",
+                    "d727b3e6-ebfc-5508-bedf-198f22f22191",
+                    "dc4d9def-fae4-5e42-868a-267c2491d4e9",
+                    "7c344eaf-61a3-5114-808a-7c634b0f9a1f",
+                    "bc5c58ef-5cf2-55c7-86f7-96b33fd0a7be",
+                    "9de5ea41-be33-5d7d-b80a-0c9ff95bf8bc",
+                    "8601678d-8c5d-4735-a889-71702f2d1e32",
+                    "04613522-0e79-490d-a8bb-1e44a4105935",
+                    "667efee0-f11d-4aab-9a38-1e7a7eec40f6",
+                    "85abc341-ac52-5bc7-85a7-aff0d40e05e8",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "4875ab28-da57-4cd6-8c32-b6e891503d3a",
+                    "c980670c-3614-4532-b99f-ccc9c141a214"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "Matglädje som livskraft – dietisterna gör skillnad",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [
+                            "Abebe Asres"
+                        ],
+                        "caption": "Regionens dietister.",
+                        "filename": "W8Vc25ei8I9kPcVAaS6Y4bbiUK4.jpg",
+                        "height": 4000,
+                        "uuid": "7af31986-bab4-57f9-9d09-d167f59bacbf",
+                        "width": 6000
+                    },
+                    {
+                        "authors": [
+                            "Abebe Asres"
+                        ],
+                        "caption": "Regionens dietister.",
+                        "filename": "N9XO_PSkOfqc97ZLfRf48FPkghk.jpg",
+                        "height": 6000,
+                        "uuid": "2ffa2618-4b7c-5226-a1dd-259ce27979da",
+                        "width": 4000
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 4,
+                "oldPaths": [],
+                "organisations": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Region Västerbotten",
+                        "uuid": "e6cd9224-4df1-5024-8ba6-b2ad059a124b",
+                        "status": "usable"
+                    }
+                ],
+                "paywall": "premium",
+                "paywallContent": [],
+                "persons": [
+                    {
+                        "contactInfo": {},
+                        "description": {},
+                        "name": "Jonas Berggren",
+                        "uuid": "9de5ea41-be33-5d7d-b80a-0c9ff95bf8bc",
+                        "status": "usable"
+                    }
+                ],
+                "photographers": [
+                    {
+                        "contactInfo": {
+                            "email": "abebe.asres@vk.se",
+                            "phone": "090-175961"
+                        },
+                        "description": {
+                            "short": "abebe.asres@vk.se"
+                        },
+                        "image": {
+                            "authors": [
+                                "Per Landfors"
+                            ],
+                            "caption": "Abebe Asres, fotograf frilagd",
+                            "filename": "E6PASgGuvlKkBhovet5YrLxclG4.png",
+                            "height": 2177,
+                            "uuid": "f72611d3-c4e1-51ae-b614-dd8e135f7b56",
+                            "width": 3189
+                        },
+                        "name": "Abebe Asres",
+                        "uuid": "85abc341-ac52-5bc7-85a7-aff0d40e05e8",
+                        "status": "usable",
+                        "signature": "",
+                        "note": "#A88A6B"
+                    }
+                ],
+                "places": [
+                    {
+                        "name": "Umeå",
+                        "uuid": "91614b47-08ab-5506-bb70-a67ae13f8667",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Umeå kommun",
+                            "uuid": "a6c9c028-8ce1-5bc9-a99a-97c46d9c40fe",
+                            "broader": {
+                                "name": "Västerbottens län",
+                                "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                                "broader": {
+                                    "name": "Sverige",
+                                    "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "Skellefteå",
+                        "uuid": "da9b0b19-82f9-506c-bd6d-861b0824099c",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Skellefteå kommun",
+                            "uuid": "9ca4d507-4003-5b52-bba2-a6e17c613a9b",
+                            "broader": {
+                                "name": "Västerbottens län",
+                                "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                                "broader": {
+                                    "name": "Sverige",
+                                    "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "Berghem",
+                        "uuid": "6d5d42e5-2de6-519c-9277-5a13bad0fee4",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Umeå",
+                            "uuid": "91614b47-08ab-5506-bb70-a67ae13f8667",
+                            "broader": {
+                                "name": "Umeå kommun",
+                                "uuid": "a6c9c028-8ce1-5bc9-a99a-97c46d9c40fe",
+                                "broader": {
+                                    "name": "Västerbottens län",
+                                    "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                                    "broader": {
+                                        "name": "Sverige",
+                                        "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "Marieberg",
+                        "uuid": "9750748b-210b-5912-ae3a-3e083184f101",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Marieområdet",
+                            "uuid": "d727b3e6-ebfc-5508-bedf-198f22f22191",
+                            "broader": {
+                                "name": "Umeå",
+                                "uuid": "91614b47-08ab-5506-bb70-a67ae13f8667",
+                                "broader": {
+                                    "name": "Umeå kommun",
+                                    "uuid": "a6c9c028-8ce1-5bc9-a99a-97c46d9c40fe",
+                                    "broader": {
+                                        "name": "Västerbottens län",
+                                        "uuid": "218772e3-5669-5540-b912-d658e8bdc916"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "Bygdeå",
+                        "uuid": "dc4d9def-fae4-5e42-868a-267c2491d4e9",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Robertsfors kommun",
+                            "uuid": "7c344eaf-61a3-5114-808a-7c634b0f9a1f"
+                        }
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Dietisterna på Region Västerbottens är ett litet men engagerat gäng som arbetar för att förbättra hälsan hos länets befolkning och samtidigt stärka matglädjen.",
+                "publishDate": "2025-10-21T08:00:00.000Z",
+                "section": {
+                    "name": "Familj",
+                    "uuid": "05e74478-244b-4c22-a2f9-541f2e0bb028",
+                    "slug": "familj",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": true,
+                "summary": "<ul><li>Dietisterna i Region Västerbotten arbetar för att förbättra hälsan och öka matglädjen hos befolkningen.</li><li>De fokuserar på äldre som har svårt att äta och strävar efter att göra maten både nyttig och god.</li><li>Dietisterna använder digitala metoder för att nå patienter i hela länet och samarbetar med olika professioner.</li><li>Teamet vill utveckla sina arbetssätt, erbjuda fler alternativ och arbeta mer personcentrerat i framtiden.</li></ul>",
+                "teaser": {
+                    "entryWord": "Hyllas:",
+                    "image": {
+                        "authors": [
+                            "Abebe Asres"
+                        ],
+                        "caption": "Regionens dietister. Fv- Tyra Häggström Camilla West Stephanie Johansson Marielle Grundström Alexandra Holmgren. Maria Sehlstedt Erika Lindmark Johannes Edholm Anette Hellberg Camilla Lundmark Jonas Berggren.",
+                        "filename": "W3Xti52ECCMyYhAN1XN0C9sVMf8.jpg",
+                        "height": 4000,
+                        "uuid": "98a75e83-447c-5705-a5a7-fcbd54c636f1",
+                        "width": 6000
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "LOKALT",
+                    "label": "Länet",
+                    "relatedArticles": [],
+                    "streamer": "Vardagshjälten",
+                    "text": "Möt gänget som skapar bättre hälsa bland befolkningen.",
+                    "title": "Matglädje som livskraft – dietisterna gör skillnad"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Vård",
+                        "status": "withheld",
+                        "uuid": "1ef74827-4e0e-5bce-8c96-9f6d46b389d5"
+                    },
+                    {
+                        "description": {},
+                        "name": "Familj",
+                        "status": "withheld",
+                        "uuid": "1d079550-ab5a-51fc-81d2-4b6338efe728"
+                    },
+                    {
+                        "description": {},
+                        "name": "Sjukdom",
+                        "status": "withheld",
+                        "uuid": "d56d39e5-d08c-5cfe-b422-6442bd36e4fa"
+                    },
+                    {
+                        "description": {},
+                        "name": "Husdjur",
+                        "status": "withheld",
+                        "uuid": "79b3ec11-c78a-52db-b044-d03817c56a64"
+                    },
+                    {
+                        "description": {},
+                        "name": "Diabetes",
+                        "status": "withheld",
+                        "uuid": "bc5c58ef-5cf2-55c7-86f7-96b33fd0a7be"
+                    },
+                    {
+                        "description": {},
+                        "name": "Inspirera mig",
+                        "status": "withheld",
+                        "uuid": "4875ab28-da57-4cd6-8c32-b6e891503d3a"
+                    }
+                ],
+                "updateDate": "2025-10-22T16:52:30.000Z",
+                "urlPath": "/2025-10-21/matgladje-som-livskraft-dietisterna-gor-skillnad-39854",
+                "uuid": "39854ebb-4e21-4b9f-a950-66c1f86e7373"
+            },
+            {
+                "authors": [
+                    {
+                        "contactInfo": {
+                            "email": "redaktion@vk.se"
+                        },
+                        "description": {},
+                        "name": "United Robots",
+                        "uuid": "b70c2b6b-92b6-593b-8ad2-2298077a581b",
+                        "status": "usable"
+                    }
+                ],
+                "categories": [
+                    {
+                        "description": {},
+                        "name": "Ekonomi och näringsliv",
+                        "uuid": "c9583b91-8779-5fbd-8999-3ed16a8a1e0b",
+                        "slug": "ekonomi-och-naringsliv",
+                        "children": [],
+                        "status": "usable"
+                    }
+                ],
+                "channels": [
+                    "Folkbladet",
+                    "VK"
+                ],
+                "conceptUuids": [
+                    "b70c2b6b-92b6-593b-8ad2-2298077a581b",
+                    "b6348c90-d9f1-40a9-818c-7175e2e2cb53",
+                    "b42ef3f7-7983-4f29-8e53-7f735f57109b",
+                    "c9583b91-8779-5fbd-8999-3ed16a8a1e0b",
+                    "218772e3-5669-5540-b912-d658e8bdc916",
+                    "9ca3939d-e258-5c19-8733-0e6c70dca48a",
+                    "973e7641-43ed-52bf-b861-a7d4d3b27265",
+                    "2648d63e-10d9-511c-af3f-1d45494232ec",
+                    "8af7e303-d390-40c9-b0cb-0666bd4670de",
+                    "84693fe4-0551-4dc4-98ae-b127d210f5ef",
+                    "640ad237-4687-49c1-a6e1-639128dea6c3"
+                ],
+                "contentProfile": {
+                    "name": "Nyhet",
+                    "uuid": "b6348c90-d9f1-40a9-818c-7175e2e2cb53"
+                },
+                "headline": "41-åring startar nytt företag i Vindeln",
+                "hideAds": false,
+                "images": [
+                    {
+                        "authors": [],
+                        "filename": "DC4sUSTQNlsLRJ7xMMQjIAk4klc.jpg",
+                        "height": 2737,
+                        "uuid": "e9395557-13e5-5a3c-b564-9430f9fbec92",
+                        "width": 4149
+                    }
+                ],
+                "isNativeAd": false,
+                "linkTeaser": false,
+                "newsValue": 1,
+                "oldPaths": [],
+                "organisations": [],
+                "paywall": "frequency",
+                "paywallContent": [],
+                "persons": [],
+                "photographers": [],
+                "places": [
+                    {
+                        "name": "Västerbottens län",
+                        "uuid": "218772e3-5669-5540-b912-d658e8bdc916",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Sverige",
+                            "uuid": "9ca3939d-e258-5c19-8733-0e6c70dca48a"
+                        }
+                    },
+                    {
+                        "name": "Vindeln",
+                        "uuid": "973e7641-43ed-52bf-b861-a7d4d3b27265",
+                        "status": "usable",
+                        "broader": {
+                            "name": "Vindeln kommun",
+                            "uuid": "2648d63e-10d9-511c-af3f-1d45494232ec"
+                        }
+                    },
+                    {
+                        "name": "Vindeln kommun",
+                        "uuid": "2648d63e-10d9-511c-af3f-1d45494232ec",
+                        "status": "usable"
+                    }
+                ],
+                "podcasts": [],
+                "preamble": "Norrfoder har angett följande som verksamhetsbeskrivning: \"Tillverkning av foder för sällskapsdjur så som hund och katt.\"",
+                "publishDate": "2025-10-13T06:59:02.000Z",
+                "section": {
+                    "name": "Affärsliv24",
+                    "uuid": "b42ef3f7-7983-4f29-8e53-7f735f57109b",
+                    "slug": "affarsliv24",
+                    "description": {}
+                },
+                "stories": [],
+                "summaryVisible": false,
+                "summary": "",
+                "teaser": {
+                    "image": {
+                        "authors": [],
+                        "filename": "DC4sUSTQNlsLRJ7xMMQjIAk4klc.jpg",
+                        "height": 2737,
+                        "uuid": "e9395557-13e5-5a3c-b564-9430f9fbec92",
+                        "width": 4149
+                    },
+                    "imageCrops": [],
+                    "placeLabel": "VINDELN",
+                    "relatedArticles": [],
+                    "text": "Norrfoder har angett följande som verksamhetsbeskrivning: \"Tillverkning av foder för sällskapsdjur så som hund och katt.\"",
+                    "title": "41-åring startar nytt företag i Vindeln"
+                },
+                "topics": [
+                    {
+                        "description": {},
+                        "name": "Bolagsnytt",
+                        "status": "usable",
+                        "uuid": "8af7e303-d390-40c9-b0cb-0666bd4670de"
+                    }
+                ],
+                "updateDate": "2025-10-13T16:01:00.000Z",
+                "urlPath": "/2025-10-13/41-aring-startar-nytt-foretag-i-vindeln-d0a89",
+                "uuid": "d0a891d3-b6d5-5c90-a6f6-b8180dfcd3b6"
+            }
+        ]
+    }
+}
