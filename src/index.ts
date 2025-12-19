@@ -117,7 +117,7 @@ interface MCPProps extends Record<string, unknown> {
 /**
  * MCP Agent for newspaper article search
  */
-export class VKMcpAgent extends McpAgent<Env, unknown, MCPProps> {
+export class VKMcpAgentV2 extends McpAgent<Env, unknown, MCPProps> {
 	server = new McpServer({
 		name: 'VK Media Article Search',
 		version: '1.0.0',
@@ -848,7 +848,7 @@ export default {
 			} as RequestInit);
 
 			// Pass to SSE handler
-			const response = await VKMcpAgent.serveSSE('/sse').fetch(modifiedRequest, env, ctx);
+			const response = await VKMcpAgentV2.serveSSE('/sse').fetch(modifiedRequest, env, ctx);
 
 			// Add CORS headers to SSE response
 			const responseHeaders = new Headers(response.headers);
@@ -882,7 +882,7 @@ export default {
 			} as RequestInit);
 
 			// Pass modified request to MCP handler
-			const response = await VKMcpAgent.serve('/mcp').fetch(modifiedRequest, env, ctx);
+			const response = await VKMcpAgentV2.serve('/mcp').fetch(modifiedRequest, env, ctx);
 
 			// Add CORS headers to MCP response
 			const responseHeaders = new Headers(response.headers);

@@ -31,7 +31,7 @@
 		"bindings": [
 			{
 				"name": "MCP_OBJECT",
-				"class_name": "VKMcpAgent"
+				"class_name": "VKMcpAgentV2"
 			}
 		]
 	},
@@ -42,11 +42,8 @@
 		},
 		{
 			"tag": "v2",
-			"deleted_classes": ["VKMcpAgent"]
-		},
-		{
-			"tag": "v3",
-			"new_sqlite_classes": ["VKMcpAgent"]
+			"deleted_classes": ["VKMcpAgent"],
+			"new_sqlite_classes": ["VKMcpAgentV2"]
 		}
 	]
 
