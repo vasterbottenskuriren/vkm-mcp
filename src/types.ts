@@ -2,15 +2,6 @@
  * Type definitions for VK MCP Server
  */
 
-// Auth context passed to MCP tools after OAuth
-// Must extend Record<string, unknown> for McpAgent compatibility
-export interface AuthContext extends Record<string, unknown> {
-	authToken: string; // The auth_token from cookie
-	clientId: string;
-	resource: string;
-	siteDomain?: string; // The newspaper domain (e.g., vk.se, folkbladet.nu)
-}
-
 // VK API article response structure
 export interface VKArticle {
 	headline: string;

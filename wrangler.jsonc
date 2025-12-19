@@ -1,7 +1,3 @@
-/**
- * For more details on how to configure Wrangler, refer to:
- * https://developers.cloudflare.com/workers/wrangler/configuration/
- */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "vkm-mcp",
@@ -11,30 +7,10 @@
 	"observability": {
 		"enabled": true
 	},
-
-	/**
-	 * KV Namespace for OAuth token storage
-	 */
 	"kv_namespaces": [
 		{
 			"binding": "OAUTH_KV",
 			"id": "9acb1cd49cd141da802a9f72c05c2b94"
 		}
 	]
-
-	/**
-	 * Routes - configure once DNS is set up
-	 * "routes": [
-	 *   { "pattern": "mcp.content.vk.se", "zone_name": "content.vk.se" }
-	 * ]
-	 */
-
-	/**
-	 * Rate Limiting - add when ready
-	 * See: https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/
-	 * "ratelimits": [
-	 *   { "name": "OAUTH_RATE_LIMIT", "namespace_id": "1", "simple": { "limit": 10, "period": 60 } },
-	 *   { "name": "MCP_RATE_LIMIT", "namespace_id": "2", "simple": { "limit": 60, "period": 60 } }
-	 * ]
-	 */
 }
