@@ -62,14 +62,25 @@ The worker automatically detects which site based on the request hostname.
 | `/mcp` | POST | Alternative MCP endpoint |
 | `/health` | GET | Health check |
 
-### MCP Tool: search_articles
+### MCP Tools
+
+#### search_articles
+Search newspaper articles by keyword.
 
 Parameters:
 - `search` (string, required) - Search query
 - `limit` (number, 1-50, default: 15) - Results per page
 - `page` (number, default: 0) - Page number
 
-Returns sanitized article data: headline, preamble, section, authors, publishDate
+Returns: headline, preamble, urlPath, section, authors, publishDate
+
+#### get_article
+Get the full content of an article by its urlPath.
+
+Parameters:
+- `urlPath` (string, required) - The urlPath from search results (e.g., "/2025-12-15/article-slug-12345")
+
+Returns: Full article text with headlines, body paragraphs, blockquotes, and image captions
 
 ### KV Keys
 
@@ -97,13 +108,15 @@ Returns sanitized article data: headline, preamble, section, authors, publishDat
 
 ## Deployment
 
-1. Create KV namespace (if not exists):
+**Deployment is automatic on commit to main branch.** Do not run `npm run deploy` manually.
+
+Setup (one-time):
+1. Create KV namespace:
    ```bash
    wrangler kv namespace create OAUTH_KV
    ```
 2. Update `wrangler.jsonc` with the KV namespace ID
 3. Configure DNS for each site
-4. Deploy: `npm run deploy`
 
 ## MCP Spec Compliance
 

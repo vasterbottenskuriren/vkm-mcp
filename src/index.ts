@@ -5,7 +5,7 @@
  * Uses raw MCP protocol handling - no Durable Objects required.
  */
 
-import type { VKSearchResponse, SanitizedArticle } from './types';
+import type { VKSearchResponse, SanitizedArticle, ArticleContentResponse, ArticleTextElement } from './types';
 
 // Supported newspaper sites
 interface SiteConfig {
@@ -99,11 +99,11 @@ const corsHeaders = {
 
 const MCP_VERSION = '2024-11-05';
 
-// Tool definition for search_articles
+// Tool definitions
 const TOOLS = [
 	{
 		name: 'search_articles',
-		description: 'Search newspaper articles by keyword',
+		description: 'Search newspaper articles by keyword. Returns headlines, preambles and urlPath for each article.',
 		inputSchema: {
 			type: 'object',
 			properties: {
@@ -123,6 +123,20 @@ const TOOLS = [
 				}
 			},
 			required: ['search']
+		}
+	},
+	{
+		name: 'get_article',
+		description: 'Get the full content of an article by its urlPath. Use this after search_articles to read the complete article text.',
+		inputSchema: {
+			type: 'object',
+			properties: {
+				urlPath: {
+					type: 'string',
+					description: 'The urlPath from search results (e.g., "/2025-12-15/article-slug-12345")'
+				}
+			},
+			required: ['urlPath']
 		}
 	}
 ];
@@ -160,6 +174,7 @@ async function handleSearchArticles(
 		const articles: SanitizedArticle[] = data.result.hits.map(article => ({
 			headline: article.headline,
 			preamble: article.preamble,
+			urlPath: article.urlPath,
 			section: article.section?.name || 'Unknown',
 			authors: article.authors?.map(a => a.name) || [],
 			publishDate: article.publishDate,
@@ -180,6 +195,113 @@ async function handleSearchArticles(
 	} catch (error) {
 		return {
 			content: [{ type: 'text', text: 'Unable to access the newspaper at this time' }],
+			isError: true,
+		};
+	}
+}
+
+// Extract text from nested article text elements
+function extractText(elements: ArticleTextElement[] | undefined): string {
+	if (!elements) return '';
+
+	return elements.map(el => {
+		if (el.text) return el.text;
+		if (el.elements) return extractText(el.elements);
+		return '';
+	}).join('');
+}
+
+// Get article content API URL
+function getArticleApiUrl(site: SiteConfig, urlPath: string): string {
+	// urlPath is like "/2025-12-15/article-slug-12345"
+	// API URL is like https://news.content.folkbladet.nu/folkbladet/rest/article/content/2025-12-15/article-slug-12345
+	const cleanPath = urlPath.startsWith('/') ? urlPath.substring(1) : urlPath;
+	return `${site.searchApiBase}/${site.apiPathPrefix}/rest/article/content/${cleanPath}`;
+}
+
+// Handle get_article tool call
+async function handleGetArticle(
+	args: { urlPath: string },
+	authToken: string,
+	site: SiteConfig
+): Promise<{ content: Array<{ type: string; text: string }>; isError?: boolean }> {
+	try {
+		const { urlPath } = args;
+
+		if (!urlPath) {
+			return {
+				content: [{ type: 'text', text: 'urlPath is required' }],
+				isError: true,
+			};
+		}
+
+		const apiUrl = getArticleApiUrl(site, urlPath);
+
+		const response = await fetch(apiUrl, {
+			method: 'POST',
+			headers: {
+				'Cookie': `auth_token=${authToken}`,
+				'Content-Type': 'application/json',
+			},
+		});
+
+		if (!response.ok) {
+			return {
+				content: [{ type: 'text', text: `Unable to fetch article from ${site.name}` }],
+				isError: true,
+			};
+		}
+
+		const data = await response.json() as ArticleContentResponse;
+
+		// Extract text content from body blocks
+		const contentParts: string[] = [];
+
+		for (const block of data.body) {
+			const blockType = block.type;
+
+			if (blockType === 'headline') {
+				const text = extractText(block.text);
+				if (text) contentParts.push(`# ${text}\n`);
+			} else if (blockType === 'preamble') {
+				const text = extractText(block.text);
+				if (text) contentParts.push(`**${text}**\n`);
+			} else if (blockType === 'subheadline1') {
+				const text = extractText(block.text);
+				if (text) contentParts.push(`## ${text}\n`);
+			} else if (blockType === 'body') {
+				const text = extractText(block.text);
+				if (text) contentParts.push(`${text}\n`);
+			} else if (blockType === 'blockquote') {
+				const text = extractText(block.text);
+				if (text) contentParts.push(`> ${text}\n`);
+			} else if (blockType === 'x-im/image' && block.image?.text) {
+				const caption = extractText(block.image.text);
+				if (caption) contentParts.push(`[Image: ${caption}]\n`);
+			} else if (blockType === 'x-im/imagegallery') {
+				// Gallery has a text caption and multiple images
+				const galleryText = extractText(block.text);
+				if (galleryText) contentParts.push(`[Image gallery: ${galleryText}]\n`);
+			}
+			// Skip x-im/htmlembed (embedded scripts/widgets) and x-im/article (related articles)
+		}
+
+		const articleText = contentParts.join('\n');
+
+		return {
+			content: [{
+				type: 'text',
+				text: JSON.stringify({
+					site: site.name,
+					urlPath,
+					authType: data.authType,
+					content: articleText,
+				}, null, 2),
+			}],
+		};
+	} catch (error) {
+		return {
+			content: [{ type: 'text', text: 'Unable to fetch article at this time' }],
 			isError: true,
 		};
 	}
@@ -230,6 +352,15 @@ async function handleMcpRequest(
 
 			if (toolName === 'search_articles') {
 				const result = await handleSearchArticles(toolArgs, authToken, site);
+				return {
+					jsonrpc: '2.0',
+					id,
+					result
+				};
+			}
+
+			if (toolName === 'get_article') {
+				const result = await handleGetArticle(toolArgs, authToken, site);
 				return {
 					jsonrpc: '2.0',
 					id,
@@ -602,13 +733,13 @@ export default {
 				return new Response(JSON.stringify({
 					name: `${site.name} MCP Server`,
 					version: '1.0.0',
-					description: `Search ${site.name} newspaper articles`,
+					description: `Search and read ${site.name} newspaper articles`,
 					authentication: {
 						type: 'oauth2.1',
 						discovery: `${serverUrl}/.well-known/oauth-authorization-server`
 					},
 					capabilities: {
-						tools: ['search_articles'],
+						tools: ['search_articles', 'get_article'],
 						oauth: true,
 						refresh_tokens: true
 					}

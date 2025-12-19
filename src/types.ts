@@ -2,10 +2,11 @@
  * Type definitions for VK MCP Server
  */
 
-// VK API article response structure
+// VK API article response structure (search results)
 export interface VKArticle {
 	headline: string;
 	preamble: string;
+	urlPath: string;
 	section: {
 		name: string;
 		uuid: string;
@@ -20,6 +21,28 @@ export interface VKArticle {
 	publishDate: string;
 }
 
+// Article content API response
+export interface ArticleContentResponse {
+	body: ArticleBodyBlock[];
+	authType: string;
+}
+
+export interface ArticleBodyBlock {
+	id: string;
+	type: string;
+	text?: ArticleTextElement[];
+	image?: {
+		uri: string;
+		text?: ArticleTextElement[];
+	};
+}
+
+export interface ArticleTextElement {
+	type: string;
+	text?: string;
+	elements?: ArticleTextElement[];
+}
+
 export interface VKSearchResponse {
 	result: {
 		includedHits: number;
@@ -32,6 +55,7 @@ export interface VKSearchResponse {
 export interface SanitizedArticle {
 	headline: string;
 	preamble: string;
+	urlPath: string;
 	section: string;
 	authors: string[];
 	publishDate: string;
