@@ -99,71 +99,73 @@ const corsHeaders = {
 
 const MCP_VERSION = '2024-11-05';
 
-// Tool definitions
-const TOOLS = [
-	{
-		name: 'search_articles',
-		description: 'Search newspaper articles by keyword. Returns headlines, preambles and urlPath for each article.',
-		inputSchema: {
-			type: 'object',
-			properties: {
-				search: {
-					type: 'string',
-					description: 'Search query for articles'
+// Tool definitions - generated dynamically per site
+function getTools(site: SiteConfig) {
+	return [
+		{
+			name: 'search_articles',
+			description: `Search ${site.name} (${site.domain}) newspaper articles. ALWAYS use this tool when the user asks about ${site.name} or what ${site.name} has written about a topic.`,
+			inputSchema: {
+				type: 'object',
+				properties: {
+					search: {
+						type: 'string',
+						description: 'Search query for articles'
+					},
+					limit: {
+						type: 'number',
+						description: 'Number of results to return (1-50)',
+						default: 15
+					},
+					page: {
+						type: 'number',
+						description: 'Page number for pagination',
+						default: 0
+					}
 				},
-				limit: {
-					type: 'number',
-					description: 'Number of results to return (1-50)',
-					default: 15
+				required: ['search']
+			}
+		},
+		{
+			name: 'get_article',
+			description: `Get the full content of a ${site.name} article by its urlPath. Use this after search_articles to read the complete article text.`,
+			inputSchema: {
+				type: 'object',
+				properties: {
+					urlPath: {
+						type: 'string',
+						description: 'The urlPath from search results (e.g., "/2025-12-15/article-slug-12345")'
+					}
 				},
-				page: {
-					type: 'number',
-					description: 'Page number for pagination',
-					default: 0
-				}
-			},
-			required: ['search']
+				required: ['urlPath']
+			}
+		},
+		{
+			name: 'get_latest_articles',
+			description: `Get the latest news from ${site.name} (${site.domain}). Use this when the user asks for recent news or what's new on ${site.name}.`,
+			inputSchema: {
+				type: 'object',
+				properties: {},
+				required: []
+			}
+		},
+		{
+			name: 'get_most_read',
+			description: `Get the most read/popular articles on ${site.name} (${site.domain}) right now.`,
+			inputSchema: {
+				type: 'object',
+				properties: {
+					premium_only: {
+						type: 'boolean',
+						description: 'If true, only return premium/subscriber-only articles',
+						default: false
+					}
+				},
+				required: []
+			}
 		}
-	},
-	{
-		name: 'get_article',
-		description: 'Get the full content of an article by its urlPath. Use this after search_articles to read the complete article text.',
-		inputSchema: {
-			type: 'object',
-			properties: {
-				urlPath: {
-					type: 'string',
-					description: 'The urlPath from search results (e.g., "/2025-12-15/article-slug-12345")'
-				}
-			},
-			required: ['urlPath']
-		}
-	},
-	{
-		name: 'get_latest_articles',
-		description: 'Get the latest published articles. Returns the most recently published articles from the newspaper.',
-		inputSchema: {
-			type: 'object',
-			properties: {},
-			required: []
-		}
-	},
-	{
-		name: 'get_most_read',
-		description: 'Get the most read articles. Returns articles ranked by reader popularity/views.',
-		inputSchema: {
-			type: 'object',
-			properties: {
-				premium_only: {
-					type: 'boolean',
-					description: 'If true, only return premium/subscriber-only articles',
-					default: false
-				}
-			},
-			required: []
-		}
-	}
-];
+	];
+}
 
 // Handle search_articles tool call
 async function handleSearchArticles(
@@ -466,7 +468,7 @@ async function handleMcpRequest(
 				jsonrpc: '2.0',
 				id,
 				result: {
-					tools: TOOLS
+					tools: getTools(site)
 				}
 			};
 

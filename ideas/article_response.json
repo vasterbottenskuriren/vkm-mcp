@@ -1,0 +1,1481 @@
+{
+    "body": [
+        {
+            "id": "MTY3LDksMTg0LDIyMQ",
+            "image": {
+                "type": "x-im/image",
+                "uri": "adNjHyMjdD8cRVIC3oHMnpsNiVM.jpg",
+                "uuid": "85cfd815-ddc4-5d75-8133-29df002a0c2a",
+                "height": 4121,
+                "width": 6160,
+                "flags": [],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.15514018691588785/1/0.8411214953271028"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.00625/0/0.89125/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.33125/0/0.66875/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.48/0/0.50125/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "BILDREPORTAGE"
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MTY1LDY1LDY4LDI1MA",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Tvillingarna Maggan och Bibbi har följts åt hela livet"
+                }
+            ],
+            "type": "headline"
+        },
+        {
+            "id": "NTgsMjQ3LDUzLDMw",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Enäggstvillingarna Margareta och Birgitta Löfström, eller Maggan och Bibbi som de kallar varandra, har väckt uppmärksamhet vad de än tagit sig för i livet, vilket sannerligen är en hel del. De har alltid varit tillsammans, alltid klätt sig på samma sätt, alltid stöttat varandra och alltid skrattat mycket. Och faktiskt aldrig varit osams."
+                }
+            ],
+            "type": "preamble"
+        },
+        {
+            "id": "NTMsMTM2LDE3MCwyMjc",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Har vi tyckt olika om något har vi diskuterat det, förklarar Margareta."
+                }
+            ],
+            "type": "preamble"
+        },
+        {
+            "id": "MTg2LDIzNCw2MCwxOQ",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Ja, och då inser Maggan att \"Bibbi har rätt\", skojar Birgitta."
+                }
+            ],
+            "type": "preamble"
+        },
+        {
+            "id": "htmlembed-52e9fdf893f03cad38b88861741488ca",
+            "type": "x-im/htmlembed",
+            "embedCode": "<script async defer type=\"text/javascript\" src=\"https://delivery.youplay.se/load.js?id=601272\" class=\"yp\"  data-config='{\"autoplay\":true,\"mute\":true,\"zone_id\":1196,\"player\":\"sp\",\"addons\":\"000\",\"part_id\":473991}'></script>",
+            "format": "html"
+        },
+        {
+            "id": "MjA3LDE1NiwyNDQsNTY",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Det är svårt för utomstående att skilja dem åt och det har det alltid varit. Det är två upplagor av allt; frisyr, kläder, skor och smycken. Vad de ska sätta på sig är däremot inte något som bestäms i förväg. Det bara blir så, menar Birgitta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-d895337ca36ded4c8fdc3ff057ed5e39",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Det är lite knepigt att förklara, men vi väljer samma kläder på morgonen utan att vi ens har pratat med varandra först. Vi försökte klä oss olika som barn, men det gick inte alls."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-d5a823f98249a8a3e1de76b8712cbd2e",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Det var samma sak när vi jobbade som mannekänger, vi valde alltid samma plagg, förklarar Margareta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MTAxLDYyLDY5LDM2",
+            "image": {
+                "type": "x-im/image",
+                "uri": "XbrjqMQEbsHucDs2ZN9WA26QjNo.jpg",
+                "uuid": "46a73ad5-09d1-5624-b574-e6681e22d2f6",
+                "height": 3753,
+                "width": 5720,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.07238095238095238/1/0.8571428571428571"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.0625/0/0.875/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.1725/0/0.65625/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.25375/0/0.4925/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Birgitta har en fastighet med flera lägenheter på Haga, och dit flyttade även Margareta efter sin skilsmässa. Systrarna har var sin lägenhet, men tillbringar ändå all tid tillsammans."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MTQsMzgsMTY5LDEwMA",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "The Twins, det är så de sammanfattar sig själva, är födda och uppvuxna i Umeå. Från början bodde familjen på Teg, i ett hus vid älven, men små barn så nära vatten kändes för osäkert tyckte föräldrarna, så det blev en flytt till Sandbacka. Först till det som då hette Lidvägen (numera Rönnbärsstigen). Sedan, när tvillingarna fått en lillasyster och lägenheten blivit för trångbodd, byggde deras pappa ett hus på Skogsbrynet. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "blockquote-1518619a066f4bf1bb0a5c1d9f61ff97",
+            "type": "blockquote",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "När jag inte ids, då får Maggan prata. Skönt och bra!"
+                }
+            ]
+        },
+        {
+            "id": "paragraph-b414ecee5dc3adadf7ef636b6250a489",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Jag beundrar honom verkligen. Pappa kom från en by utanför Borgafjäll från början. Han blev utkastad hemifrån med bara en bulle på fickan. Att gå från det till att egenhändigt bygga ett hus till sin familj är helt fantastiskt. Vi har faktiskt ett samiskt påbrå också, och det är på pappa sida, säger Birgitta och Margareta nickar instämmande. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "im-imagegallery-d6594df045b0de5b27c5e958a8236e5e",
+            "type": "x-im/imagegallery",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Resorna till Cypern har blivit längre med åren, den här gången stannade systrarna fyra veckor och nästa år kan det nog bli ännu längre. \"Det är så otroligt härligt och lugnt där, och varmt och skönt!\""
+                }
+            ],
+            "images": [
+                {
+                    "type": "x-im/image",
+                    "uri": "o1ByJN5MSUzvpWIwepCs6y2dD8I.jpg",
+                    "uuid": "65c1a391-e70b-5da6-b80a-9d1df4d3c77d",
+                    "height": 4185,
+                    "width": 6160,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Torbjörn Jakobsson",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.08639705882352941/1/0.8272058823529411"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.0475/0/0.90625/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.16/0/0.68/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Varma dagar på stranden."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "uaqWEyqjGYbyBE7-b3GiJW941wc.jpg",
+                    "uuid": "97a96aa2-2063-55cf-b852-b0a5718cbe2c",
+                    "height": 4102,
+                    "width": 5720,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Torbjörn Jakobsson",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.10801393728222997/1/0.7839721254355401"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.0225/0/0.95625/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.14125/0/0.7175/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Cypern känns som ett andra hem."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "paragraph-f38135ab334805a921cca471c97f3a4c",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Birgitta var den som kom till världen först (\"Maggan sparkade ut mig\") och ända sedan födseln har systrarna haft ett starkt band, starkare än någonting annat. De är en enhet som kan vara svår både att förstå och att rå på. Det finns de som har försökt. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-30a17ba75cd416f8c66b8d8c8899404f",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Vi hjälpte alltid varandra i skolan. En gång ansåg läraren att det var fel och placerade oss i var sin ände av salen när det skulle skrivas uppsats. Det var bara det att jag och Maggan började våra uppsatser på precis samma sätt ändå och skrev om precis samma saker. Efter det sa han inget mer."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MjI2LDIyNCwyMDUsOTA",
+            "image": {
+                "type": "x-im/image",
+                "uri": "YSbpC64YueVopxlyrlbLz_cuwyw.jpg",
+                "uuid": "86a156b4-8ef9-5ebd-ab08-6b65d4879386",
+                "height": 3834,
+                "width": 5720,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.08022388059701492/1/0.8395522388059702"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.05375/0/0.89375/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.165/0/0.67/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.24875/0/0.5025/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Tvillingarna var naturligtvis på plats för att lyssna till kungen under firandet av Umeå 400 år. Systrarna är födda och uppvuxna i stan, familjen bodde först på Teg men flyttade senare till Sandbacka och numera bor de på Haga. Umeå har förändrats en hel del sedan de var små, och det till det bättre tycker Maggan och Bibbi. \"Det är ju mycket mer modernt och utbyggd nu för tiden\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-356542d7a3c27713d295e15140181e6a",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Det är Birgitta som pratar mest, men när det uppstår en lucka eller saknas information fyller Margareta i. De är inte alltid medvetna om det själva, men verkar perfekt synkroniserade, i både rörelser och tal. Inte en enda gång under våra samtal avbryter de varandra eller pratar i mun. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-b8d439ea8f8db957942e01caf0cca680",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– När jag inte ids, då får Maggan prata. Skönt och bra, deklarerar Birgitta med ett skratt. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-2b0e8f793430ad7eb9bf184b853e2250",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Fast det är rätt ofta som vi säger, eller är på väg att säga, samma sak, inflikar Margareta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "ODMsMjUwLDE1MSw3Mw",
+            "image": {
+                "type": "x-im/image",
+                "uri": "wOXa9T3Q9Pf8Y7KhKn2O3XsqLig.jpg",
+                "uuid": "912a58e7-ba38-5ec7-9fdd-0028b0338e3b",
+                "height": 3813,
+                "width": 5720,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.07879924953095685/1/0.8442776735459663"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.05625/0/0.88875/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.1675/0/0.66625/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.25/0/0.5/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Maggan och Bibbi gillar att ta en turer med husbilen. De har rest runt i hela Sverige och bland annat besökt Småland en del, men de flesta utflykter går till närområdet. Som den här varma augustidagen då tvillingarna tog en tur till Sand. \"Vi tycker om djur och natur, det har alltid varit ett stort intresse.\""
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-c54b6c12020d7eef41415157cab6bb37",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Man får vara lite på alerten för att hänga med i svängarna när tvillingarna berättar om sina liv för det bubblar av historier och händelser. Den ena roliga episoden avlöser den andra, som till exempel den gången volontäruppdraget under kulturhuvudstadsåret slutade med att de blev inlåsta på flygplatsen. Eller operaföreställningen som de fick vara med i eftersom regissören absolut ville ha tvillingar på scenen. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-19c89b95aa7cf5504f54d57f6bd9548d",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Han fick som han ville! Vi har alltid haft svårt att sitta still och gjort många saker. Som unga var vi nog hopplösa. Odygdiga! Man kan ju inte kväva sig själv, säger Birgitta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MTQ3LDExNCwxODUsMjU0",
+            "image": {
+                "type": "x-im/image",
+                "uri": "RBpyFcBevSHzcvNXFtVea6RjnIY.jpg",
+                "uuid": "d14c4a6e-f9fb-5338-8f22-1cd6d9d043b4",
+                "height": 2201,
+                "width": 3300,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Privat",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.07865168539325842/1/0.8426966292134831"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.055/0/0.89/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.16625/0/0.6675/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.25/0/0.50125/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Små flickor, bara några år gamla, som snällt poserar på den stora stenen under familjeutflykten. Vem som är vem kan Margareta och Birgitta däremot inte säga idag."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "blockquote-1fc6ef7b2ffc7adabd24ddae3f046b72",
+            "type": "blockquote",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "En gång fick butiken skäll för att de låtit en ensam tjej jobba så hårt..."
+                }
+            ]
+        },
+        {
+            "id": "paragraph-b83f7328737b3ee5e6f04803895fce49",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "De modeintresserade systrarna är vana mannekänger som fick sina första uppdrag redan vid tolv års ålder. Att två likadana tjejer, långa och tjusiga, klev ut på catwalken var spektakulärt, tyckte publiken, och tvillingarna har visat kläder för flera Umeåbutiker. Det var på sin tid stora evenemang som lockade mycket folk, och som ibland inkluderade uppträdanden av etablerade artister."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-2ac480ce1eb03035e4ad936a32028fef",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Från början gick vi ut en och en, men en gång fick butiken skäll för att de låtit en ensam tjej jobba så hårt under en visning. Efter det fick vi alltid gå ut på scenen tillsammans, berättar Margareta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MjAwLDIyNSwxNzYsMTYw",
+            "image": {
+                "type": "x-im/image",
+                "uri": "BMtmYRWqQnKKordEKvxwbOHWGlA.jpg",
+                "uuid": "5c5cf1d8-8548-5e5f-891e-c342e9414d22",
+                "height": 3667,
+                "width": 5500,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.07879924953095685/1/0.8442776735459663"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.05625/0/0.88875/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.1675/0/0.66625/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.25/0/0.5/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Det var Margareta som först köpte sin Volvo 740, årsmodell 80-tal, och sedan hakade Birgitta på och slog till på en näst intill identisk bil. Motorintresset är stort hos tvillingarna, de är båda bilkårister och har suttit i förarsätet på tunga militärfordon, men även kört långfärdsbuss till Stockholm på helgerna."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-a296c7f501683d6e89b606368b497545",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Systrarnas pappa var militär och intresset smittade av sig, så de blev hängivna bilkårister och har kört både stridsvagn och stora militärfordon. \"Valpen\" som terrängbilen 903:an kallas är en riktig favorit, förklarar sergeant Birgitta, och Margareta påminner henne om uppdragen vid militärhögskolan i Jokkmokk där de körde \"höjdare\" två veckor åt gången. Tvillingarna har busskörkort också och många glada minnen från tiden då de körde långfärdsbuss till Stockholm på helgerna. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-a05b2b225f8d99a17cd56c9b7699b69c",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Sedan måste du ta med att vi alltid älskat djur och natur, säger Birgitta och förklarar att när tillvaron i stan blir för stillastående drar systrarna iväg i en av sina gamla Volvos  och \"raggar\", vilket ofta betyder en tur till Degernäs där det finns fina hästar och vackra fåglar."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MTA5LDc2LDIxLDIyMA",
+            "image": {
+                "type": "x-im/image",
+                "uri": "NUuAf5FuZq_lHFMi4Dbiq-qlShI.jpg",
+                "uuid": "3076a30a-162c-5c6f-93a7-bd37755d6f71",
+                "height": 4003,
+                "width": 5940,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.08348794063079777/1/0.8348794063079777"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.05125/0/0.89875/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.16375/0/0.67375/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.2475/0/0.505/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Tvillingarna har många favoritutflyktsmål i närheten av Umeås och Degernäs är ett av dem. \"Vi tittar gärna på fåglar där och på fina hästar\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-2c9d0cf798bfc6615266e1b982afdc34",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Birgitta och Margareta har aldrig duckat för en utmaning utan glatt tackat ja till det som livet erbjudit. Kanske beror det på att de är två och på att de stöttat varandra. Det mesta som de har varit med om har de upplevt tillsammans. Det mesta, men inte precis allt. Från början var planen att de skulle jobba på samma arbetsplats, men slumpen, ödet eller vad man nu ska kalla det, gjorde så att Margareta blev personalhandläggare på länsstyrelsen och Birgitta hamnade på universitetet. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "blockquote-a8a40e3183f0a644d34890dbe032eaa4",
+            "type": "blockquote",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Till slut blev karlarna för svartsjuka, det fungerade inte."
+                }
+            ]
+        },
+        {
+            "id": "im-imagegallery-d13308b05a2d24802714e98d5cd94ad4",
+            "type": "x-im/imagegallery",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "På Cypern bor tvillingarna alltid på samma hotell och i samma rum, nummer 741. Efter 40 år har det blivit som ett andra hem."
+                }
+            ],
+            "images": [
+                {
+                    "type": "x-im/image",
+                    "uri": "X5M2aH61iQRR_7HBzr9arkMWEik.jpg",
+                    "uuid": "3e0314f8-70b7-5570-a952-6bd32c3b3039",
+                    "height": 3957,
+                    "width": 5720,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.09403254972875226/1/0.8137432188065099"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.04/0/0.92125/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.155/0/0.69125/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Utsikt från favoritrummet."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "4K36uNdpVPmI1DS9VYovfwRSWVs.jpg",
+                    "uuid": "66e60169-3181-5b38-a33f-19b31a62abe5",
+                    "height": 4105,
+                    "width": 6160,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Torbjörn Jakobsson",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.15384615384615385/1/0.8442776735459663"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.05625/0/0.88875/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.1675/0/0.66625/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "En liten vilopaus på hotellrummet."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "paragraph-1dfecd4a8759a702af3e6231631e62fc",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Där skiljer vi oss åt faktiskt, vi är bra på lite olika saker. Jag är språkaren och kan till exempel tala tyska flytande medan Maggan är matematikern. Vi tog var sin del där. Och så har ju du varit gift, Maggan, och det har inte jag, säger Birgitta och nickar mot sin syster."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-d52f48054cdcd69997f6003661e39558",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Ja, och du var brudnäbb. Jag var gift i 20 år, det är ändå ganska länge. Sedan skilde jag mig, förklarar Margareta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "NzUsMTU3LDIyMiwyMDc",
+            "image": {
+                "type": "x-im/image",
+                "uri": "hiNUetnJHRWN7BSTnQdWW_N6jEE.jpg",
+                "uuid": "0d0033d8-98ac-54f2-b3ac-7ce9ed3b76ef",
+                "height": 3920,
+                "width": 5720,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.08941605839416059/1/0.8211678832116789"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.04375/0/0.91375/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.1575/0/0.685/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.24375/0/0.51375/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Tvillingarna har dubbel upplaga av allt, kläder, skor, smycken, resväskor och även bilar, och de klär sig alltid likadant. \"Det är lite knepigt att förklara. Vi väljer samma kläder utan att vi ens pratat med varandra\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-40642aa038f2ed4894b33af55628ffbf",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Birgitta menar att det finns ett gammalt ordspråk som säger att när det gäller tvillingar så är det en som gifter sig, inte den andra. En som får barn och inte den andra. Hur väl det stämmer vet hon inte riktigt. Själv har hon varit förlovad två gånger, men det kändes aldrig så bra att det blev aktuellt med äktenskap eller barn. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-6e292716693d7c7db99c4b5596a067be",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Även när Maggan var gift träffades vi varje dag som vi brukade. Vi promenerade på morgonen och åt lunch ihop. Till slut blev karlarna för svartsjuka, det fungerade inte, säger hon och sedan finns inte så mycket mer att orda om den saken. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MTk3LDEzNCw2LDEz",
+            "image": {
+                "type": "x-im/image",
+                "uri": "wqBIQQca-q44wYvq-2c4XlOQYgc.jpg",
+                "uuid": "bbafa154-340f-5c99-8271-2d484450aa55",
+                "height": 5937,
+                "width": 4400,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.2916666666666667/1/0.4166666666666667"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0/0.2222222222222222/1/0.5555555555555556"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0/0.12962962962962962/1/0.7407407407407407"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0/0.006481481481481481/1/0.9879629629629629"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "De har alltid haft varandra och upplevt det mesta tillsammans. Margareta och Birgitta vet inte om något annat och har slutat lyssna på de som tycker att de de borde ha separerat sina liv mer. \"Vi gör som vi vill för det är våra liv det handlar om\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-7797b33994d5a402f9e546a46c53cfe8",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Tvillingarna är medvetna om att det alltid funnits ett tryck från omgivningen, många som ansett att systrarna borde ha ansträngt sig mer för att separera sina liv. Även om de har gjort vissa försök, var det aldrig något de själva längtade efter eller önskade. De mår bra när de är tillsammans, och bestämde sig till slut för att sluta lyssna på andras åsikter."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-ad5c5a946618f8954a15fd23e587286c",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Vi gör som vi vill för det är våra liv det handlar om. En gång när vi skulle gå en kurs inom bilkåristerna ville de sära på oss utan anledning och då sa vi bara \"morsning och good bye\", tog resväskan och for hem. Punkt slut. Nu för tiden särar man på tvillingar i skolorna, men vi tycker att det är fel att man inte ska få bestämma själv, säger Birgitta. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "im-imagegallery-d7c5bd8661b24ecec429533cdf8e8786",
+            "type": "x-im/imagegallery",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "I början av maj har det blivit dags att skifta däck på tvillingarnas Volvo 740. Motorintresset var något de fick från sin pappa. Både Maggan och Bibbi är bilkårister och de har båda busskörkort."
+                }
+            ],
+            "images": [
+                {
+                    "type": "x-im/image",
+                    "uri": "J9JK_mxYv7zqGfwGEG7i59gQmUQ.jpg",
+                    "uuid": "30c0e673-2a57-5f6a-a99a-1a687491eb98",
+                    "height": 4050,
+                    "width": 5940,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Torbjörn Jakobsson",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.08807339449541285/1/0.8256880733944955"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.04625/0/0.90875/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.16/0/0.68125/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Margareta och Birgitta Löfström, tvillingar.The Twins"
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "NPiUHpgcdroa1RmXBsUEdSbL4Jc.jpg",
+                    "uuid": "75626776-2e7c-5f64-8dde-fc0b5313c07e",
+                    "height": 5156,
+                    "width": 7296,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Per Landfors",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.10265486725663717/1/0.7964601769911505"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.03/0/0.94125/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.1475/0/0.70625/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "twins"
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "U6ujDi3IQr0JgD1ZvhB6YFS5KoA.jpg",
+                    "uuid": "f2c86a57-ad33-5d5f-b653-ac6dc54e2405",
+                    "height": 5150,
+                    "width": 8111,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Per Landfors",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.05708661417322835/1/0.8858267716535433"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.0775/0/0.84625/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.1825/0/0.635/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "twins"
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "Zglx1LGoyBMKBHXjw9MCJEiY0Cc.jpg",
+                    "uuid": "ebb0f607-45c2-5b47-8f9d-18549d5cbc8b",
+                    "height": 4016,
+                    "width": 5940,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Torbjörn Jakobsson",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.08502772643253234/1/0.8317929759704251"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0.05/0/0.90125/1"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0.1625/0/0.67625/1"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "twins"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "blockquote-2889193fe79c27427987d14b2bfa9028",
+            "type": "blockquote",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Lev och ha så roligt du någonsin kan brukar jag säga."
+                }
+            ]
+        },
+        {
+            "id": "paragraph-77eb1954c8dcd2a5e24c173e7013813f",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Efter skilsmässan för snart 30 år sedan, flyttade Margareta in i det flerfamiljshus på Haga som Birgitta köpt några år tidigare. Där bor de fortfarande, i var sin lägenhet även om de tillbringar all tid tillsammans. Att ha en tvilling var onekligen bra under pandemin, men det har ändå varit trist att inte kunna gå på restaurang och att inte kunna resa, konstaterar The Twins som har sett de flesta av världens hörn. Cypern är deras absoluta favoritplats, och när vi ses en andra gång för att prata om det här reportaget har de precis kommit hem efter en fyra veckor lång vistelse. Det var det 40:e besöket för systrarna som numera är välbekanta ansikten på ön."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "NDksMTEzLDE5NSwyMjE",
+            "image": {
+                "type": "x-im/image",
+                "uri": "R7_mNhTSsHi00onNk-1lrYsi63c.jpg",
+                "uuid": "26b3bbd7-9cc9-5187-b9f2-bb06ab5e580d",
+                "height": 3813,
+                "width": 5720,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.07879924953095685/1/0.8442776735459663"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.05625/0/0.88875/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.1675/0/0.66625/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.25/0/0.5/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Att aldrig behöva vara ensam, att alltid ha en syster som kan hjälpa är både tryggt och praktiskt. \"Vi vet ju inget om hur det är att bara vara en\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-7940468476e7a31c7717f55352223f17",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Cypern är som ett andra hem för oss, vi är faktiskt turistambassadörer där sedan ganska många år tillbaka, berättar Birgitta."
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-5919e5cdabe5cffa3a931f9a5f298a9b",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Det är så skönt med värmen, vi älskar när det är riktigt varmt. Att åka hem var gruvsamt, tillägger Margareta. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "MjE3LDgzLDI0NiwxNTA",
+            "image": {
+                "type": "x-im/image",
+                "uri": "aM5sgs8X420d2L72bn-GmVs-Nhk.jpg",
+                "uuid": "8b5c9c29-ba7d-5eb9-a084-6ae89f5a1858",
+                "height": 4314,
+                "width": 6160,
+                "flags": [
+                    "disableAutomaticCrop"
+                ],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [
+                    {
+                        "title": "16:9",
+                        "crop": "0/0.09821428571428571/1/0.8035714285714286"
+                    },
+                    {
+                        "title": "4:3",
+                        "crop": "0.03375/0/0.93375/1"
+                    },
+                    {
+                        "title": "1:1",
+                        "crop": "0.15/0/0.7/1"
+                    },
+                    {
+                        "title": "3:4",
+                        "crop": "0.2375/0/0.525/1"
+                    }
+                ],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Tvillingarna är turistambassadörer på Cypern och väcker uppmärksamhet var de än går. Många vill gärna språka en stund med de identiska damerna som efter 40 år känner mycket folk på ön och har fått många vänner."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "paragraph-0a5b83de4a2189fffde1271c87cb0698",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Nästa år kan det mycket väl bli så att tvillingarna stannar fem eller kanske till och med sex veckor på Cypern, men förutom den resan har de inte så många planer för framtiden. Det är här och nu som gäller. Att försöka hålla sig frisk och må bra är det absolut viktigaste. De vill ens snudda vid tanken på en framtid som innehåller några sorgligheter. Att något skulle hända någon av dem är så otänkbart, skrämmande och obegripligt att systrarna inte kan göra annat än att slå det ifrån sig. "
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "paragraph-01a6ed05fd5ea83822b83bd084f951c2",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "– Nej, huvva! Det där vill vi inte tänka på. Lev och ha så roligt du någonsin kan brukar jag säga, man vet aldrig vad som kan hända. Så vi tänker fortsätta att hitta på en massa odygdigheter. Det är vi riktigt duktiga på, jag och Maggan!"
+                }
+            ],
+            "type": "body"
+        },
+        {
+            "id": "im-imagegallery-f9515fe348c63b189e1c1dc25b302065",
+            "type": "x-im/imagegallery",
+            "text": [
+                {
+                    "type": "text",
+                    "text": "Bilder från Margaretas och Birgittas mannekängkarriär. De började visa kläder redan vid 12 års ålder och har mannekängat för många av Umeås butiker."
+                }
+            ],
+            "images": [
+                {
+                    "type": "x-im/image",
+                    "uri": "8ybADNX6Vwig_RzPJJYKhl5wG5U.jpg",
+                    "uuid": "eeee190f-75bf-5e6a-8274-bd2f06a72caf",
+                    "height": 5058,
+                    "width": 3300,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Privat",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.31703341483292585/1/0.36674816625916873"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0/0.25590872045639773/1/0.4889975550122249"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0/0.17440912795436023/1/0.6519967400162999"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Bild från modevisning."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "hdyR1BuUv4ZAoGlxNtuufSHmoHM.jpg",
+                    "uuid": "4598bd59-e961-501e-96d2-7aeb55d19eed",
+                    "height": 4400,
+                    "width": 3300,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Privat",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.28959700093720714/1/0.4217432052483599"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0/0.21930646672914714/1/0.5623242736644799"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0/0.12558575445173384/1/0.7497656982193065"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Tvillingarna har visat kläder för många butiker."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "lK1ee6iOVhLGs36zJs9m9pymCeE.jpg",
+                    "uuid": "eea60dc9-591d-5fe9-ae02-124fe0fad2b0",
+                    "height": 4195,
+                    "width": 3300,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Privat",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.27925270403146507/1/0.4424778761061947"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0/0.2055063913470993/1/0.5899705014749262"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0/0.1071779744346116/1/0.7866273352999017"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Bild från modevisning."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "33yKsjzuJp-IPQ-iy_XvmgXC_RY.jpg",
+                    "uuid": "f03ec800-9500-5a50-825b-c05cb784e6bf",
+                    "height": 3548,
+                    "width": 3300,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Privat",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.23837209302325582/1/0.5232558139534884"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0/0.1511627906976744/1/0.6976744186046512"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0/0.03488372093023256/1/0.9302325581395349"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Tvillingarna har visat kläder för många butiker."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "I2pbrxX5qwx-5C7joXNEjZrWHb4.jpg",
+                    "uuid": "e1bdd12d-be55-55ab-88f4-3cf7aecaf5be",
+                    "height": 5367,
+                    "width": 3300,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Privat",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.3271889400921659/1/0.3456221198156682"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0/0.2695852534562212/1/0.4608294930875576"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0/0.19278033794162827/1/0.6144393241167435"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Bild från modevisning."
+                        }
+                    ]
+                },
+                {
+                    "type": "x-im/image",
+                    "uri": "A1f7kIPVXZbwnWEOjwa-RMx1ouk.jpg",
+                    "uuid": "2a9d6d0a-1b9a-59bf-a7ec-f051584261e0",
+                    "height": 3300,
+                    "width": 2475,
+                    "flags": [
+                        "disableAutomaticCrop"
+                    ],
+                    "author": {
+                        "title": "Privat",
+                        "uuid": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "crops": [
+                        {
+                            "title": "16:9",
+                            "crop": "0/0.28959700093720714/1/0.4217432052483599"
+                        },
+                        {
+                            "title": "4:3",
+                            "crop": "0/0.21930646672914714/1/0.5623242736644799"
+                        },
+                        {
+                            "title": "1:1",
+                            "crop": "0/0.12558575445173384/1/0.7497656982193065"
+                        }
+                    ],
+                    "text": [
+                        {
+                            "type": "text",
+                            "text": "Bild från modevisning."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "paragraph-3610e31f71804c1505d66530f678cb0a",
+            "text": [],
+            "type": "body"
+        },
+        {
+            "id": "NDUsMjM0LDE0NywxMjE",
+            "image": {
+                "type": "x-im/image",
+                "uri": "I-GsR-A9gW_7g9_hyJZKBXMMqPo.jpg",
+                "uuid": "973b8789-9c62-5a12-8661-8914abe5c63a",
+                "height": 6180,
+                "width": 4400,
+                "flags": [],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Att bara prata i telefon har aldrig varit tillräckligt, man måste träffas, förklarar Bibbi och Maggan. Även under åren då Margareta var gift sågs de varje dag för att promenera på morgonen och äta lunch tillsammans. \"Till slut blev karlarna för svartsjuka\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MTU1LDIwNSwxMjUsMTg4",
+            "image": {
+                "type": "x-im/image",
+                "uri": "p6EFFpfe_d7L2IGUnau6TcqXECk.jpg",
+                "uuid": "78c1c967-501d-5e70-b18b-b052da2092fa",
+                "height": 3819,
+                "width": 5720,
+                "flags": [],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Eventuella framtida sorgligheter, att något skulle kunna hända någon av dem,  är en tanke som är så jobbig att systrarna inte ens vill snudda vid den. \"Nej, huvva!  Lev bara och ha så roligt du någonsin kan\"."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MjI1LDI1LDE3LDc5",
+            "image": {
+                "type": "x-im/image",
+                "uri": "6TLjkLykQBqlvdwbNogdgwo4pZQ.jpg",
+                "uuid": "7d8eee5d-d39e-55c9-a304-0fcf8da55e24",
+                "height": 5916,
+                "width": 4400,
+                "flags": [],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Ända sedan födseln har systrarna haft ett starkt band, starkare än någonting annat. De är en enhet som kan vara svår både att förstå och att rå på. Det finns en del som har försökt."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MjAxLDEwNSwyMTEsNzY",
+            "image": {
+                "type": "x-im/image",
+                "uri": "RhT1IfF0wBPOy-an6kVOcP9_oR4.jpg",
+                "uuid": "451b71d9-04e3-55a5-aa70-574475ee3158",
+                "height": 3868,
+                "width": 5720,
+                "flags": [],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Birgitta har under flera år jobbat för Umeå guideförening där hon lett stadsvandringar och hållit i bussguidningar. I sommar blev det en hel del turer och under just den här är det Margaretas tidigare arbetskamrater på länsstyrelsen som får lära sig mer om stan."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MTU0LDE4NiwxNzAsMjUx",
+            "text": [],
+            "type": "body"
+        },
+        {
+            "id": "Myw2MiwxMjEsMTMz",
+            "image": {
+                "type": "x-im/image",
+                "uri": "TSa4LlrvA7VPyBAmrgSCS3Uh-FE.jpg",
+                "uuid": "ebe65d76-4f9f-5545-9f49-c1800472c688",
+                "height": 4088,
+                "width": 5720,
+                "flags": [],
+                "author": {
+                    "title": "Torbjörn Jakobsson",
+                    "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "crops": [],
+                "text": [
+                    {
+                        "type": "text",
+                        "text": "Efter 40 resor till Cypern har de fått sina invanda rutiner och på eftermiddagen, vid 17-tiden, är det dags att bege sig mot tavernan för att äta middag. Tvillingarna är vana vid att folk uppmärksammar dem, och tycker att det är roligt när någon kommer fram och vill prata."
+                    }
+                ]
+            },
+            "type": "x-im/image"
+        },
+        {
+            "id": "MTEzLDE2NCwzOCw4OQ",
+            "text": [],
+            "type": "body"
+        }
+    ],
+    "authType": "AUTH_BY_USER"
+}
