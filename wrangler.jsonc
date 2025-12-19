@@ -14,31 +14,11 @@
 
 	/**
 	 * KV Namespace for OAuth token storage
-	 * Create with: wrangler kv namespace create OAUTH_KV
-	 * Then update the id below with the returned ID
 	 */
 	"kv_namespaces": [
 		{
 			"binding": "OAUTH_KV",
 			"id": "9acb1cd49cd141da802a9f72c05c2b94"
-		}
-	],
-
-	/**
-	 * Durable Objects for MCP Agent state
-	 */
-	"durable_objects": {
-		"bindings": [
-			{
-				"name": "MCP_OBJECT",
-				"class_name": "VKMcpAgentV2"
-			}
-		]
-	},
-	"migrations": [
-		{
-			"tag": "v1",
-			"new_sqlite_classes": ["VKMcpAgentV2"]
 		}
 	]
 
