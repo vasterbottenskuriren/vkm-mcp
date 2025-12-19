@@ -518,6 +518,39 @@ async function handleTokenExchange(request: Request, env: Env): Promise<Response
 	}), { status: 400, headers: { 'Content-Type': 'application/json', ...corsHeaders } });
 }
 
+// Handle SSE message endpoint
+async function handleSseMessage(request: Request, env: Env, sessionId: string, site: SiteConfig): Promise<Response> {
+	// Get session data
+	const sessionData = await env.OAUTH_KV.get(`mcp_session:${sessionId}`);
+	if (!sessionData) {
+		return new Response(JSON.stringify({ error: 'Session not found' }), {
+			status: 401,
+			headers: { 'Content-Type': 'application/json', ...corsHeaders }
+		});
+	}
+
+	const { authToken, siteDomain } = JSON.parse(sessionData);
+	const mcpSite = SITES[siteDomain] || site;
+
+	const body = await request.json().catch(() => null);
+	if (!body) {
+		return new Response(JSON.stringify({
+			jsonrpc: '2.0',
+			error: { code: -32700, message: 'Parse error' }
+		}), { headers: { 'Content-Type': 'application/json', ...corsHeaders } });
+	}
+
+	const response = await handleMcpRequest(body, authToken, mcpSite);
+
+	if (response === null) {
+		return new Response(null, { status: 202, headers: corsHeaders });
+	}
+
+	return new Response(JSON.stringify(response), {
+		headers: { 'Content-Type': 'application/json', ...corsHeaders }
+	});
+}
+
 async function validateToken(request: Request, env: Env): Promise<{ authToken: string; siteDomain: string } | Response> {
 	const authHeader = request.headers.get('Authorization');
 	if (!authHeader?.startsWith('Bearer ')) {
@@ -581,6 +614,15 @@ export default {
 			}), { headers: { 'Content-Type': 'application/json', ...corsHeaders } });
 		}
 
+		// OAuth Protected Resource Metadata (RFC 9728)
+		if (url.pathname === '/.well-known/oauth-protected-resource') {
+			return new Response(JSON.stringify({
+				resource: serverUrl,
+				authorization_servers: [serverUrl],
+				scopes_supported: ['articles:search'],
+			}), { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'public, max-age=3600', ...corsHeaders } });
+		}
+
 		// OAuth metadata
 		if (url.pathname === '/.well-known/oauth-authorization-server') {
 			return new Response(JSON.stringify({
@@ -609,7 +651,88 @@ export default {
 			return handleTokenExchange(request, env);
 		}
 
-		// MCP endpoint - handles JSON-RPC directly
+		// SSE endpoint for MCP
+		if (url.pathname === '/sse') {
+			// GET = establish SSE connection
+			if (request.method === 'GET') {
+				const authResult = await validateToken(request, env);
+				if (authResult instanceof Response) {
+					return authResult;
+				}
+
+				const mcpSite = SITES[authResult.siteDomain] || site;
+
+				// Create SSE stream
+				const { readable, writable } = new TransformStream();
+				const writer = writable.getWriter();
+				const encoder = new TextEncoder();
+
+				// Generate session ID for this connection
+				const sessionId = crypto.randomUUID();
+
+				// Store session info in KV for message endpoint
+				await env.OAUTH_KV.put(`mcp_session:${sessionId}`, JSON.stringify({
+					authToken: authResult.authToken,
+					siteDomain: authResult.siteDomain
+				}), { expirationTtl: 3600 });
+
+				// Send initial endpoint message
+				const endpointMessage = `event: endpoint\ndata: /sse/message?sessionId=${sessionId}\n\n`;
+				writer.write(encoder.encode(endpointMessage));
+
+				// Keep connection alive with periodic pings
+				const keepAlive = setInterval(async () => {
+					try {
+						await writer.write(encoder.encode(': ping\n\n'));
+					} catch {
+						clearInterval(keepAlive);
+					}
+				}, 30000);
+
+				// Clean up on close
+				ctx.waitUntil((async () => {
+					await readable.pipeTo(new WritableStream());
+					clearInterval(keepAlive);
+					await env.OAUTH_KV.delete(`mcp_session:${sessionId}`);
+				})());
+
+				return new Response(readable, {
+					headers: {
+						'Content-Type': 'text/event-stream',
+						'Cache-Control': 'no-cache',
+						'Connection': 'keep-alive',
+						...corsHeaders
+					}
+				});
+			}
+
+			// POST = send message (legacy, redirect to /sse/message)
+			if (request.method === 'POST') {
+				const sessionId = url.searchParams.get('sessionId');
+				if (!sessionId) {
+					return new Response(JSON.stringify({ error: 'Missing sessionId' }), {
+						status: 400,
+						headers: { 'Content-Type': 'application/json', ...corsHeaders }
+					});
+				}
+				// Redirect to message endpoint
+				return handleSseMessage(request, env, sessionId, site);
+			}
+		}
+
+		// SSE message endpoint
+		if (url.pathname === '/sse/message' && request.method === 'POST') {
+			const sessionId = url.searchParams.get('sessionId');
+			if (!sessionId) {
+				return new Response(JSON.stringify({ error: 'Missing sessionId' }), {
+					status: 400,
+					headers: { 'Content-Type': 'application/json', ...corsHeaders }
+				});
+			}
+			return handleSseMessage(request, env, sessionId, site);
+		}
+
+		// MCP endpoint - handles JSON-RPC directly (HTTP transport)
 		if (url.pathname === '/mcp' && request.method === 'POST') {
 			const authResult = await validateToken(request, env);
 			if (authResult instanceof Response) {
